@@ -33,7 +33,7 @@ If you are interested in my research and would like collaboration, please feel f
 Highlight: We present two new classes of algorithms for efficient field integration on graphs encoding point clouds.
 <br><br>
 
-### <a name="SMKD"></a> 2. **(Preprint 2023)** **Supervised Masked Knowledge Distillation for Few-shot Transformers**
+### <a name="SMKD"></a> 2. **(CVPR 2023)** **Supervised Masked Knowledge Distillation for Few-shot Transformers**
 ***Han Lin**\*, Guangxing Han\*, Jiawei Ma, Shiyuan Huang, Xudong Lin, Shih-Fu Chang*
 <br>[Paper coming soon]\[[Code](https://github.com/HL-hanlin/SMKD)\]\[[Slides](https://www.dropbox.com/s/29n9gjgzbqjqqbk/SMKD.pdf?dl=0)\]
 

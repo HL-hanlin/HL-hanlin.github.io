@@ -16,7 +16,7 @@ My research spans several fields of machine learning, including representation l
 
 If you are interested in my research and would like collaboration, please feel free to contact me via email! :)
 
-**I'm applying for Fall 2023 CS Ph.D. programs and looking for Spring & Summer 2023 research assistant positions. Feel free to reach out!**
+<!--- **I'm applying for Fall 2023 CS Ph.D. programs and looking for Spring & Summer 2023 research assistant positions. Feel free to reach out!** -->
 
 <br/>
 

@@ -17,7 +17,7 @@ I'm an incoming Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) a
 My research spans several fields of machine learning, including representation learning, reinforcement learning, deep learning frameworks design (e.g. Transformers, GNNs), as well as Monte Carlo methods. Despite such diversity, I'm chiefly fond of the **theory-grounded algorithms** with applications in computer vision and robotics. Specifically, my research aims at making algorithms more *efficient* \[[1](#Topographer),[5](#HRF),[7](#OMC)\] and *scalable* \[[4](#Toeplitz),
 [6](#GKAT)], as well as designing *simple but effective* \[[2](#SMKD)\] learning algorithms as a *better alternative to traditional heuristics* \[[3](#TANDEM)\]. -->
 
-My research spans several fields of machine learning, including representation learning, reinforcement learning, deep learning frameworks design (e.g. Transformers, GNNs), as well as Monte Carlo methods. Despite such diversity, I'm chiefly fond of the theory-grounded algorithms with applications in computer vision and robotics. Now I'm working on multimodal learning and language-guided robotics.
+My research spans several fields of machine learning, including representation learning, reinforcement learning, deep learning frameworks design (e.g. Transformers, GNNs), as well as Monte Carlo methods. Despite such diversity, I'm chiefly fond of the theory-grounded algorithms with applications in computer vision and robotics. Now my research focus on multimodal learning and language-guided robotics.
 
 If you are interested in my research and would like collaboration, please feel free to contact me via email! :)
 

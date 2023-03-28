@@ -89,7 +89,7 @@ Feel free to contact me if you are interested in my research! :)
 
 
 
-\* Co-First Authors, Equal Contribution.
+\* Equal contribution.
 <br><br>
 <!--- 
 Slideslive video recording and conference poster presenter for \[[5](https://iclr.cc/virtual/2022/poster/6410), [7](https://slideslive.com/38936089/demystifying-orthogonal-monte-carlo-and-beyond?ref=search-presentations-orthogonal+monte+carlo+and+be)\]. \\

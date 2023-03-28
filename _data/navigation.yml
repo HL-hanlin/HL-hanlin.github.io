@@ -12,6 +12,6 @@ main:
   - title: "Services"
     url: /#services
     
-  - title: "Projects"
-    url: /portfolio/
+  #- title: "Projects"
+  #  url: /portfolio/
     

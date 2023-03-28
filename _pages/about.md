@@ -98,7 +98,6 @@ Feel free to contact me if you are interested in my research! :)
 </p>
 <!---  Highlight: In this paper we shed new light on the theoretical principles behind Orthogonal Monte Carlo (OMC), applying theory of negatively dependent random variables to obtain several new concentration results. We also propose a novel extensions of the method leveraging number theory techniques and particle algorithms, called Near-Orthogonal Monte Carlo (NOMC). 
 <br><br>   -->
-<br>
 
 
 

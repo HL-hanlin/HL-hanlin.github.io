@@ -39,7 +39,7 @@ Feel free to contact me if you are interested in my research! :)
 <br><br>  -->
 
 - ### <a name="SMKD"></a> **(CVPR 2023)** **Supervised Masked Knowledge Distillation for Few-shot Transformers**
-<font size="1">***Han Lin**\*, Guangxing Han\*, Jiawei Ma, Shiyuan Huang, Xudong Lin, Shih-Fu Chang*</font>
+***Han Lin**\*, Guangxing Han\*, Jiawei Ma, Shiyuan Huang, Xudong Lin, Shih-Fu Chang*
 <br>[Paper coming soon]\[[Code](https://github.com/HL-hanlin/SMKD)\]\[[Slides](https://www.dropbox.com/s/29n9gjgzbqjqqbk/SMKD.pdf?dl=0)\]
 <img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/SMKD3.png?raw=true"  width="820px"/>
 <!--- Highlight: We propose a novel framework for few-shot Transformers which incorporates label information into self-distillation. Compared with previous self-supervised methods, we allow intra-class knowledge distillation on both class and patch tokens, and introduce the challenging task of masked patch tokens reconstruction across intra-class images.   

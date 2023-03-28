@@ -33,7 +33,7 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="Topographer"></a> **(Preprint 2023)** **Efficient Graph Field Integrators Meet Point Clouds**
 *Krzysztof Choromanski\*, Arijit Sehanobish\*, **Han Lin**\*, Yunfan Zhao\*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller*
 <br>\[[Paper](https://arxiv.org/abs/2302.00942)\]
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/ICML2023_front_image.png?raw=true"  width="700px"/>
+<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/ICML2023_front_image.png?raw=true"  width="600px"/>
 
 <!--- Highlight: We present two new classes of algorithms for efficient field integration on graphs encoding point clouds. 
 <br><br>  -->
@@ -41,7 +41,7 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="SMKD"></a> **(CVPR 2023)** **Supervised Masked Knowledge Distillation for Few-shot Transformers**
 ***Han Lin**\*, Guangxing Han\*, Jiawei Ma, Shiyuan Huang, Xudong Lin, Shih-Fu Chang*
 <br>[Paper coming soon]\[[Code](https://github.com/HL-hanlin/SMKD)\]\[[Slides](https://www.dropbox.com/s/29n9gjgzbqjqqbk/SMKD.pdf?dl=0)\]
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/SMKD3.png?raw=true"  width="700px"/>
+<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/SMKD3.png?raw=true"  width="600px"/>
 <!--- Highlight: We propose a novel framework for few-shot Transformers which incorporates label information into self-distillation. Compared with previous self-supervised methods, we allow intra-class knowledge distillation on both class and patch tokens, and introduce the challenging task of masked patch tokens reconstruction across intra-class images.   
 <br><br>  -->
 
@@ -49,7 +49,7 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="TANDEM"></a> **(ICRA 2023)** [**Active Tactile Exploration for 3D Object Recognition**](https://arxiv.org/abs/2209.08772)
 *Jingxi Xu\*, **Han Lin\***, Shuran Song, Matei Ciocarlie*
 <br>\[[Paper](https://arxiv.org/abs/2209.08772)\]\[[Blog](https://jxu.ai/tandem3d/)\]\[[Video](https://www.youtube.com/watch?v=z_90xVf1-88)\]
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/TANDEM.png?raw=true" height='340px' width="600px"/>
+<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/TANDEM.png?raw=true" height='300px' width="550px"/>
 <!--- Highlight: We propose TANDEM3D, a co-training framework for exploration and decision making to 3D object recognition with tactile signals. TANDEM3D is based on a novel encoder that builds 3D object representation from contact positions and normals using PointNet++, and enables 6DOF movement.
 <br><br> -->
 
@@ -65,7 +65,7 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="HRF"></a> **(ICLR 2022)** [**Hybrid Random Features**](https://arxiv.org/abs/2110.04367)
 *Krzysztof Choromanski\*, **Han Lin**\*, Haoxian Chen\*, Yuanzhe Ma\*, Arijit Sehanobish\*, Deepali Jain, Michael S Ryoo, Jake Varley, Andy Zeng, Valerii Likhosherstov, Dmitry Kalashnikov, Vikas Sindhwani, Adrian Weller*
 <br>\[[Paper](https://arxiv.org/abs/2110.04367)\]\[[Code](https://github.com/HL-hanlin/HRF_ICLR2022)\]\[[Video](https://iclr.cc/virtual/2022/poster/6410)\]\[[Slides](https://iclr.cc/media/iclr-2022/Slides/6410.pdf)\]
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/HRF.png?raw=true" width="675px"/>
+<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/HRF.png?raw=true" width="600px"/>
 <!---  Highlight: We propose a new class of random feature methods for linearizing softmax and Gaussian kernels called hybrid random features (HRFs) equipted with strong theoretical guarantees - unbiased approximation and strictly smaller worst-case relative errors than its counterparts.  
 <br><br>  -->
 

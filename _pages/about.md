@@ -101,7 +101,7 @@ Github code maintainer for \[[2](https://github.com/HL-hanlin/SMKD), [4](https:/
 
 <h1 id="teaching"> Teaching Assistants</h1>
 
-
+<!---
 - [COMS 4231 Analysis of Algorithms](http://www.cs.columbia.edu/~mihalis/cs4231/syllabus.html), Fall 2022
   - Prof. Mihalis Yannakakis, Department of Computer Science, Columbia University
 - [COMS 4732 Computer Vision 2: Learning](https://drive.google.com/drive/folders/1WBraYFj2umBYm4yf057BqIJKtwP5KAP5), Spring 2022 
@@ -114,7 +114,14 @@ Github code maintainer for \[[2](https://github.com/HL-hanlin/SMKD), [4](https:/
   - Prof. Garud Iyengar, Department of IEOR, Columbia University
 - [IEOR 4418 Transportation Analytics & Logistics](https://www.coursicle.com/columbia/courses/IEOR/E4418/), Spring 2019 
   - Prof. Adam Elmachtoub, Department of IEOR, Columbia University
+..>
 
+- [COMS 4231 Analysis of Algorithms](http://www.cs.columbia.edu/~mihalis/cs4231/syllabus.html), Fall 2022, Columbia University
+- [COMS 4732 Computer Vision 2: Learning](https://drive.google.com/drive/folders/1WBraYFj2umBYm4yf057BqIJKtwP5KAP5), Spring 2022, Columbia University
+- [COMS 4721 Machine Learning for Data Science](https://www.cs.columbia.edu/~djhsu/coms4771-f20/), Spring 2022, Columbia University
+- [QMSS 5073 Machine Learning for Social Science](https://www.coursicle.com/columbia/courses/QMSS/G5073/), Fall 2021, Columbia University
+- [IEOR 4007 Optimization Models & Methods for FE](https://www.coursicle.com/columbia/courses/IEOR/E4007/), Fall 2019, Columbia University
+- [IEOR 4418 Transportation Analytics & Logistics](https://www.coursicle.com/columbia/courses/IEOR/E4418/), Spring 2019, Columbia University
 
 <br />
 

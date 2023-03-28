@@ -33,17 +33,18 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="Topographer"></a> **(Preprint 2023)** **Efficient Graph Field Integrators Meet Point Clouds**
 *Krzysztof Choromanski\*, Arijit Sehanobish\*, **Han Lin**\*, Yunfan Zhao\*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller*
 <br>\[[Paper](https://arxiv.org/abs/2302.00942)\]
-
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/ICML2023_front_image.png?raw=true"  width="600px"/>
-
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/ICML2023_front_image.png?raw=true"  width="600px"/>
+</p>
 <!--- Highlight: We present two new classes of algorithms for efficient field integration on graphs encoding point clouds. 
 <br><br>  -->
 
 - ### <a name="SMKD"></a> **(CVPR 2023)** **Supervised Masked Knowledge Distillation for Few-shot Transformers**
 ***Han Lin**\*, Guangxing Han\*, Jiawei Ma, Shiyuan Huang, Xudong Lin, Shih-Fu Chang*
 <br>[Paper coming soon]\[[Code](https://github.com/HL-hanlin/SMKD)\]\[[Slides](https://www.dropbox.com/s/29n9gjgzbqjqqbk/SMKD.pdf?dl=0)\]
-
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/SMKD3.png?raw=true"  width="600px"/>
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/SMKD3.png?raw=true"  width="600px"/>
+</p>
 <!--- Highlight: We propose a novel framework for few-shot Transformers which incorporates label information into self-distillation. Compared with previous self-supervised methods, we allow intra-class knowledge distillation on both class and patch tokens, and introduce the challenging task of masked patch tokens reconstruction across intra-class images.   
 <br><br>  -->
 
@@ -61,8 +62,9 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="Toeplitz"></a> **(ICML 2022)** [**From block-Toeplitz matrices to differential equations on graphs: towards a general theory for scalable masked Transformers**](http://arxiv.org/abs/2107.07999)
 *Krzysztof Choromanski\*, **Han Lin**\*, Haoxian Chen\*, Tianyi Zhang, Arijit Sehanobish, Valerii Likhosherstov, Jack Parker-Holder, Tamas Sarlos, Adrian Weller, Thomas Weingarten*
 <br>\[[Paper](http://arxiv.org/abs/2107.07999)\]\[[Code](https://github.com/HL-hanlin/GKAT)\]\[[Poster](https://icml.cc/media/PosterPDFs/ICML%202022/f231f2107df69eab0a3862d50018a9b2_mzhGQSV.png)\]
-
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/Toeplitz.png?raw=true" height='170px'  width="600px"/>
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/Toeplitz.png?raw=true" height='170px'  width="600px"/>
+</p>
 <!---  Highlight: We leverage many mathematical techniques ranging from spectral analysis through dynamic programming and random walks and proposed a comprehensive approach for incorporating various masking mechanisms into Transformers architectures in a scalable way, including efficient d-dimensional RPE-masking and graph-kernel masking.
 <br><br>  -->
 
@@ -70,8 +72,9 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="HRF"></a> **(ICLR 2022)** [**Hybrid Random Features**](https://arxiv.org/abs/2110.04367)
 *Krzysztof Choromanski\*, **Han Lin**\*, Haoxian Chen\*, Yuanzhe Ma\*, Arijit Sehanobish\*, Deepali Jain, Michael S Ryoo, Jake Varley, Andy Zeng, Valerii Likhosherstov, Dmitry Kalashnikov, Vikas Sindhwani, Adrian Weller*
 <br>\[[Paper](https://arxiv.org/abs/2110.04367)\]\[[Code](https://github.com/HL-hanlin/HRF_ICLR2022)\]\[[Video](https://iclr.cc/virtual/2022/poster/6410)\]\[[Slides](https://iclr.cc/media/iclr-2022/Slides/6410.pdf)\]
-
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/HRF.png?raw=true" width="600px"/>
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/HRF.png?raw=true" width="600px"/>
+</p>
 <!---  Highlight: We propose a new class of random feature methods for linearizing softmax and Gaussian kernels called hybrid random features (HRFs) equipted with strong theoretical guarantees - unbiased approximation and strictly smaller worst-case relative errors than its counterparts.  
 <br><br>  -->
 
@@ -79,8 +82,9 @@ Feel free to contact me if you are interested in my research! :)
 - ### <a name="GKAT"></a> **(Preprint 2021)** [**Graph Kernel Attention Transformers**](https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf)
 *Krzysztof Choromanski\*, **Han Lin**\*, Haoxian Chen\*, Jack Parker-Holder*
 <br>\[[Paper](https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf)\]\[[Code](https://github.com/HL-hanlin/GKAT)\]
-
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/GKAT.png?raw=true"  width="600px"/>
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/GKAT.png?raw=true"  width="600px"/>
+</p>
 <!---  Highlight: We introduce a new class of graph neural networks, called GKAT, by combining several concepts that were so far studied independently - graph kernels, attention-based networks with structural priors and more recently, efficient Transformers architectures applying small memory footprint implicit attention methods via low rank decomposition techniques.
 <br><br>   -->
 
@@ -89,8 +93,9 @@ Feel free to contact me if you are interested in my research! :)
 ***Han Lin**\*, Haoxian Chen\*, Tianyi Zhang, Clement Laroche, Krzysztof Choromanski*
 <br>\[[Paper](https://arxiv.org/abs/2005.13590)\]\[[Code](https://github.com/HL-hanlin/OMC)\]\[[Video](https://slideslive.com/38936089/demystifying-orthogonal-monte-carlo-and-beyond?ref=search-presentations-orthogonal+monte+carlo+and+be)\]
 <!---<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/OMC.png?raw=true"  width="700px"/>-->
-
-<img align='center' src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/OMC2.png?raw=true"  width="600px"/>
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/OMC2.png?raw=true"  width="600px"/>
+</p>
 <!---  Highlight: In this paper we shed new light on the theoretical principles behind Orthogonal Monte Carlo (OMC), applying theory of negatively dependent random variables to obtain several new concentration results. We also propose a novel extensions of the method leveraging number theory techniques and particle algorithms, called Near-Orthogonal Monte Carlo (NOMC). 
 <br><br>   -->
 <br>

@@ -20,7 +20,7 @@ My research spans several fields of machine learning, including representation l
 
 My recent research focus on multimodal learning and language-guided robotics. I'm also broadly interested in theory-grounded algorithms with applications in computer vision and robotics.
 
-If you are interested in my research and would like collaboration, please feel free to contact me via email! :)
+Feel free to contact me if you are interested in my research! :)
 
 <!--- **I'm applying for Fall 2023 CS Ph.D. programs and looking for Spring & Summer 2023 research assistant positions. Feel free to reach out!** -->
 

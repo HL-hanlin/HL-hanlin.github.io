@@ -30,7 +30,7 @@ Feel free to contact me if you are interested in my research! :)
 <h1 id="publications"> Publications</h1>
 
 
-- ### <a name="Topographer"></a> **(Preprint 2023)** **Efficient Graph Field Integrators Meet Point Clouds**
+- ### <a name="Topographer"></a> **(Preprint 2023)** [**Efficient Graph Field Integrators Meet Point Clouds**](https://arxiv.org/abs/2302.00942)
 *Krzysztof Choromanski\*, Arijit Sehanobish\*, **Han Lin**\*, Yunfan Zhao\*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller*
 <br>\[[Paper](https://arxiv.org/abs/2302.00942)\]
 <p align="center">

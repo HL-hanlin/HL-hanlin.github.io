@@ -29,6 +29,7 @@ Feel free to contact me if you are interested in my research! :)
 
 <h1 id="publications"> Publications</h1>
 
+<h2 id="2023"> 2023</h2>
 
 - ### <a name="Topographer"></a> **(Preprint 2023)** [**Efficient Graph Field Integrators Meet Point Clouds**](https://arxiv.org/abs/2302.00942)
 *Krzysztof Choromanski\*, Arijit Sehanobish\*, **Han Lin**\*, Yunfan Zhao\*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller*
@@ -59,6 +60,8 @@ Feel free to contact me if you are interested in my research! :)
 <br><br> -->
 
 
+<h2 id="2022"> 2022</h2>
+
 - ### <a name="Toeplitz"></a> **(ICML 2022)** [**From block-Toeplitz matrices to differential equations on graphs: towards a general theory for scalable masked Transformers**](http://arxiv.org/abs/2107.07999)
 *Krzysztof Choromanski\*, **Han Lin**\*, Haoxian Chen\*, Tianyi Zhang, Arijit Sehanobish, Valerii Likhosherstov, Jack Parker-Holder, Tamas Sarlos, Adrian Weller, Thomas Weingarten*
 <br>\[[Paper](http://arxiv.org/abs/2107.07999)\]\[[Code](https://github.com/HL-hanlin/GKAT)\]\[[Poster](https://icml.cc/media/PosterPDFs/ICML%202022/f231f2107df69eab0a3862d50018a9b2_mzhGQSV.png)\]
@@ -79,6 +82,8 @@ Feel free to contact me if you are interested in my research! :)
 <br><br>  -->
 
 
+<h2 id="2021"> 2021</h2>
+
 - ### <a name="GKAT"></a> **(Preprint 2021)** [**Graph Kernel Attention Transformers**](https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf)
 *Krzysztof Choromanski\*, **Han Lin**\*, Haoxian Chen\*, Jack Parker-Holder*
 <br>\[[Paper](https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf)\]\[[Code](https://github.com/HL-hanlin/GKAT)\]
@@ -88,6 +93,8 @@ Feel free to contact me if you are interested in my research! :)
 <!---  Highlight: We introduce a new class of graph neural networks, called GKAT, by combining several concepts that were so far studied independently - graph kernels, attention-based networks with structural priors and more recently, efficient Transformers architectures applying small memory footprint implicit attention methods via low rank decomposition techniques.
 <br><br>   -->
 
+
+<h2 id="2020"> 2020</h2>
 
 - ### <a name="OMC"></a> **(NeurIPS 2020)** [**Demystifying Orthogonal Monte Carlo and Beyond**](https://arxiv.org/abs/2005.13590)
 ***Han Lin**\*, Haoxian Chen\*, Tianyi Zhang, Clement Laroche, Krzysztof Choromanski*

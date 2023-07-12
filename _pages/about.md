@@ -18,7 +18,7 @@ My research spans several fields of machine learning, including representation l
 [6](#GKAT)], as well as designing *simple but effective* \[[2](#SMKD)\] learning algorithms as a *better alternative to traditional heuristics* \[[3](#TANDEM)\]. 
 My research spans several fields of machine learning, including representation learning, reinforcement learning, as well as deep learning frameworks design (e.g. Transformers, GNNs). Despite such diversity, I'm chiefly fond of the theory-grounded algorithms with applications in computer vision and robotics. -->
 
-My recent research focuses on multimodal learning and language-guided robotics. I'm also broadly interested in theory-grounded algorithms for efficient machine learning.
+My recent research focuses on multimodal learning, especially text-to-video generation. I'm also broadly interested in theory-grounded algorithms for efficient machine learning.
 
 Feel free to contact me if you are interested in my research! :)
 

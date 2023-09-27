@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "https://twitter.com/hanlin_hl"
 facebook:
   username               :
   app_id                 :

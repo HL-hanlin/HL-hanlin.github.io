@@ -32,7 +32,7 @@ Feel free to contact me if you are interested in my research! :)
 <h2 id="2023"> 2023</h2>
 
 - ### <a name="VideoDirectorGPT"></a> **(Preprint 2023)** [**VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning**](https://arxiv.org/abs/2309.15091)
-***Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
+**Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2309.15091)\]\[[Project Page](https://videodirectorgpt.github.io)\]
 <p align="center">
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/video_plan.png?raw=true"  width="600px"/>

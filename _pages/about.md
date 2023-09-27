@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm an incoming Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Prior to joining UNC, I received my master's degree in Computer Science from Columbia University, where I was a member of the [DVMM Lab](https://www.ee.columbia.edu/ln/dvmm/) advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and a member of the [ROAM Lab](https://roam.me.columbia.edu/) advised by Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie) and Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/). I also work closely with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/).
+I'm a first year Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Prior to joining UNC, I received my master's degree in Computer Science from Columbia University, where I was a member of the [DVMM Lab](https://www.ee.columbia.edu/ln/dvmm/) advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and a member of the [ROAM Lab](https://roam.me.columbia.edu/) advised by Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie) and Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/). I also work closely with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/).
 
 <!--- at Columbia University, fortunate to be advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and [Guangxing Han](https://guangxinghan.github.io/) on few-shot learning with Transformers; Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie), Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/), and [Jingxi Xu](https://jxu.ai/) on tactile exploration for 3D objects. I also have the great pleasure to work with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/) on several projects related to kernelized attention on Transformers and Graph Neural Networks. -->
 
@@ -18,7 +18,7 @@ My research spans several fields of machine learning, including representation l
 [6](#GKAT)], as well as designing *simple but effective* \[[2](#SMKD)\] learning algorithms as a *better alternative to traditional heuristics* \[[3](#TANDEM)\]. 
 My research spans several fields of machine learning, including representation learning, reinforcement learning, as well as deep learning frameworks design (e.g. Transformers, GNNs). Despite such diversity, I'm chiefly fond of the theory-grounded algorithms with applications in computer vision and robotics. -->
 
-My recent research focuses on multimodal learning, especially text-to-video generation. I'm also broadly interested in theory-grounded algorithms for efficient machine learning.
+My recent research focuses on generative models, multimodal learning, and LLMs. I'm also broadly interested in theory-grounded algorithms for efficient machine learning.
 
 Feel free to contact me if you are interested in my research! :)
 
@@ -30,6 +30,14 @@ Feel free to contact me if you are interested in my research! :)
 <h1 id="publications"> Publications</h1>
 
 <h2 id="2023"> 2023</h2>
+
+- ### <a name="VideoDirectorGPT"></a> **(Preprint 2023)** [**VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning**](https://arxiv.org/abs/2309.15091)
+***Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
+<br>\[[Paper](https://arxiv.org/abs/2309.15091)\]\[[Project Page]([https://github.com/HL-hanlin/GKAT](https://videodirectorgpt.github.io/))\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/video_plan.png?raw=true"  width="600px"/>
+</p>
+
 
 - ### <a name="Topographer"></a> **(ICML 2023)** [**Efficient Graph Field Integrators Meet Point Clouds**](https://arxiv.org/abs/2302.00942)
 *Krzysztof Choromanski\*, Arijit Sehanobish\*, **Han Lin**\*, Yunfan Zhao\*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller*

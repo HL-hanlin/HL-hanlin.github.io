@@ -31,6 +31,14 @@ Feel free to contact me if you are interested in my research! :)
 
 <h2 id="2023"> 2023</h2>
 
+- ### <a name="DiagrammerGPT"></a> **(Preprint 2023)** [**DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning**](https://arxiv.org/abs/2310.12128)
+Abhay Zala, **Han Lin**, Jaemin Cho, Mohit Bansal
+<br>\[[Paper](https://arxiv.org/abs/2310.12128)\]\[[Project Page](https://diagrammergpt.github.io/)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/DiagrammerGPT.png?raw=true"  width="600px"/>
+</p>
+
+
 - ### <a name="VideoDirectorGPT"></a> **(Preprint 2023)** [**VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning**](https://arxiv.org/abs/2309.15091)
 **Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2309.15091)\]\[[Project Page](https://videodirectorgpt.github.io)\]

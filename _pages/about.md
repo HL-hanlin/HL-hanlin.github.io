@@ -68,7 +68,7 @@ Abhay Zala, **Han Lin**, Jaemin Cho, Mohit Bansal
 
 - ### <a name="TANDEM"></a> **(ICRA 2023)** [**Active Tactile Exploration for 3D Object Recognition**](https://arxiv.org/abs/2209.08772)
 *Jingxi Xu\*, **Han Lin\***, Shuran Song, Matei Ciocarlie*
-<br>\[[Paper](https://arxiv.org/abs/2209.08772)\]\[[Blog](https://jxu.ai/tandem3d/)\]\[[Video](https://www.youtube.com/watch?v=z_90xVf1-88)\]
+<br>\[[Paper](https://arxiv.org/abs/2209.08772)\]\[[Project Page](https://jxu.ai/tandem3d/)\]\[[Video](https://www.youtube.com/watch?v=z_90xVf1-88)\]
 <p align="center">
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/TANDEM.png?raw=true" height='250px' width="550px"/>
 </p>

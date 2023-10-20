@@ -20,7 +20,7 @@ My research spans several fields of machine learning, including representation l
 
 My recent research focuses on generative models, multimodal learning, and LLMs. I'm also broadly interested in theory-grounded algorithms for efficient machine learning.
 
-Feel free to email/[wechat](https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/wechat.jpg) me if you would like to chat about any research ideas! :)
+Feel free to email/[wechat](/images/wechat.jpg) me if you would like to chat about any research ideas! :)
 
 <!--- **I'm applying for Fall 2023 CS Ph.D. programs and looking for Spring & Summer 2023 research assistant positions. Feel free to reach out!** -->
 

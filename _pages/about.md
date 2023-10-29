@@ -18,7 +18,7 @@ My research spans several fields of machine learning, including representation l
 [6](#GKAT)], as well as designing *simple but effective* \[[2](#SMKD)\] learning algorithms as a *better alternative to traditional heuristics* \[[3](#TANDEM)\]. 
 My research spans several fields of machine learning, including representation learning, reinforcement learning, as well as deep learning frameworks design (e.g. Transformers, GNNs). Despite such diversity, I'm chiefly fond of the theory-grounded algorithms with applications in computer vision and robotics. -->
 
-My recent research focuses on generative models, multimodal learning, and LLMs. I'm also broadly interested in theory-grounded algorithms for efficient machine learning. You can find my CV [here](https://HL-hanlin.github.io/files/han_lin_resume.pdf)
+My recent research focuses on generative models, multimodal learning, and LLMs. I'm also broadly interested in theory-grounded algorithms for efficient machine learning. You can find my CV [here](https://HL-hanlin.github.io/files/han_lin_resume.pdf).
 
 Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.jpg) me if you would like to chat about any research ideas! :)
 

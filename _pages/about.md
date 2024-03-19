@@ -31,6 +31,18 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 
 <h1 id="publications"> Publications</h1>
 
+
+<h2 id="2024"> 2024</h2>
+
+- ### <a name="EnvGen"></a> **(Preprint 2024)** [**EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents**](https://arxiv.org/abs/2403.12014)
+Abhay Zala\*, Jaemin Cho\*, **Han Lin**, Jaehong Yoon, Mohit Bansal
+<br>\[[Paper](https://arxiv.org/abs/2403.12014)\]\[[Project Page](https://envgen-llm.github.io/)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/envgen.png?raw=true"  width="600px"/>
+</p>
+
+
+
 <h2 id="2023"> 2023</h2>
 
 - ### <a name="DiagrammerGPT"></a> **(Preprint 2023)** [**DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning**](https://arxiv.org/abs/2310.12128)

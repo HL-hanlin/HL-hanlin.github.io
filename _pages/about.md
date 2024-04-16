@@ -34,6 +34,14 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 
 <h2 id="2024"> 2024</h2>
 
+- ### <a name="Ctrl-Adapter"></a> **(Preprint 2024)** [**CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model**](https://arxiv.org/abs/2404.09967)
+**Han Lin**\*, Jaemin Cho\*, Abhay Zala, Mohit Bansal
+<br>\[[Paper](https://arxiv.org/abs/2404.09967)\]\[[Project Page](https://ctrl-adapter.github.io/)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/fig_2.png?raw=true"  width="600px"/>
+</p>
+
+
 - ### <a name="EnvGen"></a> **(Preprint 2024)** [**EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents**](https://arxiv.org/abs/2403.12014)
 Abhay Zala\*, Jaemin Cho\*, **Han Lin**, Jaehong Yoon, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2403.12014)\]\[[Project Page](https://envgen-llm.github.io/)\]

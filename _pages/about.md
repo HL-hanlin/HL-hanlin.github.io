@@ -42,7 +42,7 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 </p>
 
 - ### <a name="IntegratorTree"></a> **(Preprint 2024)** [**Fast Tree-Field Integrators: From Low Displacement Rank to Topological Transformers**](https://arxiv.org/pdf/2406.15881v1)
-Krzysztof Choromanski1, Arijit Sehanobish, Somnath Basu Roy Chowdhury, **Han Lin**, Avinava Dubey, Tamas Sarlos, Snigdha Chaturvedi
+Krzysztof Choromanski, Arijit Sehanobish, Somnath Basu Roy Chowdhury, **Han Lin**, Avinava Dubey, Tamas Sarlos, Snigdha Chaturvedi
 <br>\[[Paper](https://arxiv.org/pdf/2406.15881v1)\]
 <p align="center">
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/IntegratorTree.png?raw=true"  width="600px"/>

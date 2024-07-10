@@ -41,8 +41,14 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/fig_2.png?raw=true"  width="600px"/>
 </p>
 
+- ### <a name="VideoDirectorGPT"></a> **(COLM 2024)** [**VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning**](https://arxiv.org/abs/2309.15091)
+**Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
+<br>\[[Paper](https://arxiv.org/abs/2309.15091)\]\[[Project Page](https://videodirectorgpt.github.io)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/video_plan.png?raw=true"  width="600px"/>
+</p>
 
-- ### <a name="EnvGen"></a> **(Preprint 2024)** [**EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents**](https://arxiv.org/abs/2403.12014)
+- ### <a name="EnvGen"></a> **(COLM 2024)** [**EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents**](https://arxiv.org/abs/2403.12014)
 Abhay Zala\*, Jaemin Cho\*, **Han Lin**, Jaehong Yoon, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2403.12014)\]\[[Project Page](https://envgen-llm.github.io/)\]
 <p align="center">
@@ -50,10 +56,7 @@ Abhay Zala\*, Jaemin Cho\*, **Han Lin**, Jaehong Yoon, Mohit Bansal
 </p>
 
 
-
-<h2 id="2023"> 2023</h2>
-
-- ### <a name="DiagrammerGPT"></a> **(Preprint 2023)** [**DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning**](https://arxiv.org/abs/2310.12128)
+- ### <a name="DiagrammerGPT"></a> **(COLM 2024)** [**DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning**](https://arxiv.org/abs/2310.12128)
 Abhay Zala, **Han Lin**, Jaemin Cho, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2310.12128)\]\[[Project Page](https://diagrammergpt.github.io/)\]
 <p align="center">
@@ -61,13 +64,9 @@ Abhay Zala, **Han Lin**, Jaemin Cho, Mohit Bansal
 </p>
 
 
-- ### <a name="VideoDirectorGPT"></a> **(Preprint 2023)** [**VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning**](https://arxiv.org/abs/2309.15091)
-**Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
-<br>\[[Paper](https://arxiv.org/abs/2309.15091)\]\[[Project Page](https://videodirectorgpt.github.io)\]
-<p align="center">
-<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/video_plan.png?raw=true"  width="600px"/>
-</p>
 
+
+<h2 id="2023"> 2023</h2>
 
 - ### <a name="Topographer"></a> **(ICML 2023)** [**Efficient Graph Field Integrators Meet Point Clouds**](https://arxiv.org/abs/2302.00942)
 *Krzysztof Choromanski\*, Arijit Sehanobish\*, **Han Lin**\*, Yunfan Zhao\*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller*

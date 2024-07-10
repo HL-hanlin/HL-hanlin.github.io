@@ -41,6 +41,13 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/fig_2.png?raw=true"  width="600px"/>
 </p>
 
+- ### <a name="IntegratorTree"></a> **(Preprint 2024)** [**Fast Tree-Field Integrators: From Low Displacement Rank to Topological Transformers**](https://arxiv.org/pdf/2406.15881v1)
+Krzysztof Choromanski1, Arijit Sehanobish, Somnath Basu Roy Chowdhury, **Han Lin**, Avinava Dubey, Tamas Sarlos, Snigdha Chaturvedi
+<br>\[[Paper](https://arxiv.org/pdf/2406.15881v1)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/IntegratorTree.png?raw=true"  width="600px"/>
+</p>
+
 - ### <a name="VideoDirectorGPT"></a> **(COLM 2024)** [**VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning**](https://arxiv.org/abs/2309.15091)
 **Han Lin**, Abhay Zala, Jaemin Cho, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2309.15091)\]\[[Project Page](https://videodirectorgpt.github.io)\]

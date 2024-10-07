@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm a second year Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Prior to joining UNC, I received my master's degrees in Computer Science and Financial Engineering from Columbia University, where I was a member of the [DVMM Lab](https://www.ee.columbia.edu/ln/dvmm/) advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and a member of the [ROAM Lab](https://roam.me.columbia.edu/) advised by Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie) and Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/). I also work closely with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/). While at UNC, I have spent my summer time at [Meta FAIR Lab](https://ai.meta.com/blog/meta-fair-research-new-releases/) in 2024.
+I'm a second year Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Prior to joining UNC, I received my master's degrees in Computer Science and Financial Engineering from Columbia University, where I was a member of the [DVMM Lab](https://www.ee.columbia.edu/ln/dvmm/) advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and a member of the [ROAM Lab](https://roam.me.columbia.edu/) advised by Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie) and Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/). I also work closely with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/). In addition, I've been working as a research scientist intern at [Meta FAIR Lab](https://ai.meta.com/blog/meta-fair-research-new-releases/) since summer 2024.
 
 <!--- at Columbia University, fortunate to be advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and [Guangxing Han](https://guangxinghan.github.io/) on few-shot learning with Transformers; Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie), Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/), and [Jingxi Xu](https://jxu.ai/) on tactile exploration for 3D objects. I also have the great pleasure to work with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/) on several projects related to kernelized attention on Transformers and Graph Neural Networks. -->
 
@@ -33,6 +33,13 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 
 
 <h2 id="2024"> 2024</h2>
+
+- ### <a name="VEDiT"></a> **(Preprint 2024)** [**VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning**](https://arxiv.org/pdf/2410.03478)
+**Han Lin**, Tushar Nagarajan, Nicolas Ballas, Mido Assran, Mojtaba Komeili, Mohit Bansal, Koustuv Sinha
+<br>\[[Paper](https://arxiv.org/pdf/2410.03478)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/VEDiT.png?raw=true"  width="580px"/>
+</p>
 
 - ### <a name="Ctrl-Adapter"></a> **(Preprint 2024)** [**CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model**🔥](https://arxiv.org/abs/2404.09967)
 **Han Lin**\*, Jaemin Cho\*, Abhay Zala, Mohit Bansal

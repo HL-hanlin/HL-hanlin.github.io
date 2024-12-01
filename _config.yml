@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome to Han Lin's Website!"
+title                    : "Han Lin"
 title_separator          : "-"
 name                     : &name "Han Lin"
 description              : &description "MS in Computer Science at Columbia University"

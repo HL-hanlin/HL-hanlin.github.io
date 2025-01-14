@@ -200,7 +200,7 @@ Github code maintainer for \[[2](https://github.com/HL-hanlin/SMKD), [4](https:/
 <h1 id="services"> Academic Services</h1>
 
 
-- Conference Reviewer: NeurIPS 2022-2024, ICML 2022-2024, ICLR 2024-2025
+- Conference Reviewer: NeurIPS 2022-2024, ICML 2022-2024, ICLR 2024-2025, CVPR 2025
 - Conference Volunteer: RSS 2022
 
 

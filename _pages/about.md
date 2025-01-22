@@ -32,7 +32,7 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 <h1 id="publications"> Publications</h1>
 
 
-<h2 id="2024"> 2024</h2>
+<h2 id="2024"> 2025</h2>
 
 - ### <a name="VEDiT"></a> **(ICLR 2025)** [**VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning**](https://arxiv.org/pdf/2410.03478)
 **Han Lin**, Tushar Nagarajan, Nicolas Ballas, Mido Assran, Mojtaba Komeili, Mohit Bansal, Koustuv Sinha
@@ -47,6 +47,10 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 <p align="center">
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/fig_2.png?raw=true"  width="600px"/>
 </p>
+
+
+<h2 id="2024"> 2024</h2>
+
 
 - ### <a name="IntegratorTree"></a> **(NeurIPS 2024)** [**Fast Tree-Field Integrators: From Low Displacement Rank to Topological Transformers**](https://arxiv.org/pdf/2406.15881v1)
 Krzysztof Choromanski, Arijit Sehanobish, Somnath Basu Roy Chowdhury, **Han Lin**, Avinava Dubey, Tamas Sarlos, Snigdha Chaturvedi

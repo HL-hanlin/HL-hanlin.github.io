@@ -34,14 +34,14 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 
 <h2 id="2024"> 2024</h2>
 
-- ### <a name="VEDiT"></a> **(Preprint 2024)** [**VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning**](https://arxiv.org/pdf/2410.03478)
+- ### <a name="VEDiT"></a> **(ICLR 2025)** [**VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning**](https://arxiv.org/pdf/2410.03478)
 **Han Lin**, Tushar Nagarajan, Nicolas Ballas, Mido Assran, Mojtaba Komeili, Mohit Bansal, Koustuv Sinha
 <br>\[[Paper](https://arxiv.org/pdf/2410.03478)\]
 <p align="center">
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/VEDiT.png?raw=true"  width="580px"/>
 </p>
 
-- ### <a name="Ctrl-Adapter"></a> **(Preprint 2024)** [**CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model**](https://arxiv.org/abs/2404.09967)
+- ### <a name="Ctrl-Adapter"></a> **(ICLR 2025)** [**CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model**](https://arxiv.org/abs/2404.09967)
 **Han Lin**\*, Jaemin Cho\*, Abhay Zala, Mohit Bansal
 <br>\[[Paper](https://arxiv.org/abs/2404.09967)\]\[[Project Page](https://ctrl-adapter.github.io/)\]
 <p align="center">

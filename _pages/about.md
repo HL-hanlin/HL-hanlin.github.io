@@ -34,6 +34,13 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 
 <h2 id="2024"> 2025</h2>
 
+- ### <a name="Bifrost1"></a> **(NeurIPS 2025)** [**Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents**](https://arxiv.org/pdf/2508.05954)
+**Han Lin**, Jaemin Cho, Amir Zadeh, Chuan Li, Mohit Bansal
+<br>\[[Paper](https://arxiv.org/pdf/2508.05954)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/bifrost1.png?raw=true"  width="580px"/>
+</p>
+
 - ### <a name="VEDiT"></a> **(ICLR 2025)** [**VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning**](https://arxiv.org/pdf/2410.03478)
 **Han Lin**, Tushar Nagarajan, Nicolas Ballas, Mido Assran, Mojtaba Komeili, Mohit Bansal, Koustuv Sinha
 <br>\[[Paper](https://arxiv.org/pdf/2410.03478)\]

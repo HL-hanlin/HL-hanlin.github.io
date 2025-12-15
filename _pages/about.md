@@ -38,7 +38,7 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 **Han Lin**, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang
 <br>\[[Paper](https://arxiv.org/abs/2512.11464)\]\[[Project Page](https://metacanvas.github.io/)\]
 <p align="center">
-<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/metacanvas.png?raw=true"  width="580px"/>
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/metacanvas.png?raw=true"  width="590px"/>
 </p>
 
 - ### <a name="Bifrost1"></a> **(NeurIPS 2025)** [**Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents**](https://arxiv.org/pdf/2508.05954)

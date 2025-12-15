@@ -36,7 +36,7 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 
 - ### <a name="MetaCanvas"></a> **(Preprint 2025)** [**Exploring MLLM-Diffusion Information Transfer with MetaCanvas**](https://arxiv.org/pdf/2512.11464)
 **Han Lin**, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang
-<br>\[[Paper](https://arxiv.org/pdf/2512.11464)\]
+<br>\[[Paper](https://arxiv.org/abs/2512.11464)\]\[[Project Page](https://metacanvas.github.io/)\]
 <p align="center">
 <img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/metacanvas.png?raw=true"  width="580px"/>
 </p>

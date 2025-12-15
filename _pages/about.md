@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm a third year Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Prior to joining UNC, I received my master's degrees in Computer Science and Financial Engineering from Columbia University, where I was a member of the [DVMM Lab](https://www.ee.columbia.edu/ln/dvmm/) advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and a member of the [ROAM Lab](https://roam.me.columbia.edu/) advised by Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie) and Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/). I also work closely with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/). Besides, I've been working as a research scientist intern in the [JEPA team](https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/) at [Meta FAIR Lab](https://ai.meta.com/blog/meta-fair-research-new-releases/), and [Media Generation Team](https://ai.meta.com/research/movie-gen/) at Meta GenAI.
+I'm a third year Ph.D. student in the [MURGe-Lab](https://murgelab.cs.unc.edu/) at the University of North Carolina at Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Prior to joining UNC, I received my master's degrees in Computer Science and Financial Engineering from Columbia University, where I was a member of the [DVMM Lab](https://www.ee.columbia.edu/ln/dvmm/) advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and a member of the [ROAM Lab](https://roam.me.columbia.edu/) advised by Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie) and Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/). I also work closely with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/). Besides, I've been working as a research scientist intern in the [JEPA team](https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/) at [Meta FAIR Lab](https://ai.meta.com/blog/meta-fair-research-new-releases/), and [Media Generation Team](https://ai.meta.com/research/movie-gen/) at Meta Superintelligence Labs.
 
 <!--- at Columbia University, fortunate to be advised by Prof. [Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/) and [Guangxing Han](https://guangxinghan.github.io/) on few-shot learning with Transformers; Prof. [Matei Ciocarlie](https://www.me.columbia.edu/faculty/matei-ciocarlie), Prof. [Shuran Song](https://www.cs.columbia.edu/~shurans/), and [Jingxi Xu](https://jxu.ai/) on tactile exploration for 3D objects. I also have the great pleasure to work with Prof. [Krzysztof Choromanski](https://research.google/people/KrzysztofChoromanski/) on several projects related to kernelized attention on Transformers and Graph Neural Networks. -->
 
@@ -32,7 +32,14 @@ Feel free to email/[wechat](https://HL-hanlin.github.io/files/wechat.pdf) me if 
 <h1 id="publications"> Publications</h1>
 
 
-<h2 id="2024"> 2025</h2>
+<h2 id="2025"> 2025</h2>
+
+- ### <a name="MetaCanvas"></a> **(Preprint 2025)** [**Exploring MLLM-Diffusion Information Transfer with MetaCanvas**](https://arxiv.org/pdf/2512.11464)
+**Han Lin**, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang
+<br>\[[Paper](https://arxiv.org/pdf/2512.11464)\]
+<p align="center">
+<img src="https://github.com/HL-hanlin/HL-hanlin.github.io/blob/master/images/metacanvas.png?raw=true"  width="580px"/>
+</p>
 
 - ### <a name="Bifrost1"></a> **(NeurIPS 2025)** [**Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents**](https://arxiv.org/pdf/2508.05954)
 **Han Lin**, Jaemin Cho, Amir Zadeh, Chuan Li, Mohit Bansal

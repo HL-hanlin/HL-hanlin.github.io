@@ -182,7 +182,7 @@ Publications
    Each entry wraps that block in <font size="2"> (legacy markup) which
    renders at ~13px; this nudges it up to ~14.5px for better readability. */
 .pub-text font[size="2"] {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 /* Square logo box used for education entries so logos with different
    aspect ratios (UNC wide, Columbia tall, CUFE square) all render at

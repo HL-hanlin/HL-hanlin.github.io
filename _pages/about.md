@@ -81,7 +81,7 @@ News
 </div>
 
 
-Publications
+Preprints
 -----
 <style>
 .teaser-img {
@@ -202,6 +202,165 @@ Publications
 }
 </style>
 
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../images/vco_demo.png">
+
+<div class="pub-text" markdown="1">
+
+### V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising
+<p style="line-height:1.0">
+<font size="2">
+<strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/abs/2603.16792">Paper</a> |
+<a href="https://github.com/HL-hanlin/V-Co">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/metacanvas_teaser_12to41s_2x.mp4" type="video/mp4"></video>
+
+<div class="pub-text" markdown="1">
+
+### Exploring MLLM-Diffusion Information Transfer with MetaCanvas
+<p style="line-height:1.0">
+<font size="2">
+<strong>Han Lin</strong>, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/abs/2512.11464">Paper</a> |
+<a href="https://metacanvas.github.io/">Project Page</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video>
+
+<div class="pub-text" markdown="1">
+
+### AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories
+<p style="line-height:1.0">
+<font size="2">
+Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/abs/2602.14941">Paper</a> |
+<a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> |
+<a href="https://github.com/wz0919/AnchorWeave">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../images/deer3d_teaser.png">
+
+<div class="pub-text" markdown="1">
+
+### Error-Driven Scene Editing for 3D Grounding in Large Language Models
+<p style="line-height:1.0">
+<font size="2">
+Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/pdf/2511.14086v1">Paper</a> |
+<a href="https://github.com/zhangyuejoslin/Deer-3D">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../videos/verifier_method_website.gif">
+
+<div class="pub-text" markdown="1">
+
+### Planning with Sketch-Guided Verification for Physics-Aware Video Generation
+<p style="line-height:1.0">
+<font size="2">
+Yidong Huang, Zun Wang, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon, Yue Zhang, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/pdf/2511.17450">Paper</a> |
+<a href="https://sketchverify.github.io/">Project Page</a> |
+<a href="https://github.com/h6kplus/SketchVerify">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../images/videomsg_demo.png">
+
+<div class="pub-text" markdown="1">
+
+### Training-Free Guidance in Text-to-Video Generation via Multimodal Planning and Structured Noise Initialization
+<p style="line-height:1.0">
+<font size="2">
+Jialu Li*, Shoubin Yu*, <strong>Han Lin*</strong>, Jaemin Cho, Jaehong Yoon, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/pdf/2504.08641">Paper</a> |
+<a href="https://video-msg.github.io/">Project Page</a> |
+<a href="https://github.com/jialuli-luka/Video-MSG">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../images/GKAT.png">
+
+<div class="pub-text" markdown="1">
+
+### Graph Kernel Attention Transformers
+<p style="line-height:1.0">
+<font size="2">
+Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Jack Parker-Holder<br />
+<strong>arXiv Preprint</strong>, 2021<br />
+<a href="https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf">Paper</a> |
+<a href="https://github.com/HL-hanlin/GKAT">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+
+Publications
+-----
 <div class="pub-entry" markdown="1">
 
 <video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/epic_demo_web.mp4" type="video/mp4"></video>
@@ -569,166 +728,6 @@ Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Yuanzhe Ma*, A
 
 </div>
 
-
-
------
-### Preprints:<br />
------
-<div class="pub-entry" markdown="1">
-
-<img class="teaser-img" src="../images/vco_demo.png">
-
-<div class="pub-text" markdown="1">
-
-### V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising
-<p style="line-height:1.0">
-<font size="2">
-<strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal<br />
-arXiv Preprint, 2025<br />
-<a href="https://arxiv.org/abs/2603.16792">Paper</a> |
-<a href="https://github.com/HL-hanlin/V-Co">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/metacanvas_teaser_12to41s_2x.mp4" type="video/mp4"></video>
-
-<div class="pub-text" markdown="1">
-
-### Exploring MLLM-Diffusion Information Transfer with MetaCanvas
-<p style="line-height:1.0">
-<font size="2">
-<strong>Han Lin</strong>, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang<br />
-arXiv Preprint, 2025<br />
-<a href="https://arxiv.org/abs/2512.11464">Paper</a> |
-<a href="https://metacanvas.github.io/">Project Page</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video>
-
-<div class="pub-text" markdown="1">
-
-### AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories
-<p style="line-height:1.0">
-<font size="2">
-Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
-arXiv Preprint, 2025<br />
-<a href="https://arxiv.org/abs/2602.14941">Paper</a> |
-<a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> |
-<a href="https://github.com/wz0919/AnchorWeave">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<img class="teaser-img" src="../images/deer3d_teaser.png">
-
-<div class="pub-text" markdown="1">
-
-### Error-Driven Scene Editing for 3D Grounding in Large Language Models
-<p style="line-height:1.0">
-<font size="2">
-Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal<br />
-arXiv Preprint, 2025<br />
-<a href="https://arxiv.org/pdf/2511.14086v1">Paper</a> |
-<a href="https://github.com/zhangyuejoslin/Deer-3D">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<img class="teaser-img" src="../videos/verifier_method_website.gif">
-
-<div class="pub-text" markdown="1">
-
-### Planning with Sketch-Guided Verification for Physics-Aware Video Generation
-<p style="line-height:1.0">
-<font size="2">
-Yidong Huang, Zun Wang, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon, Yue Zhang, Mohit Bansal<br />
-arXiv Preprint, 2025<br />
-<a href="https://arxiv.org/pdf/2511.17450">Paper</a> |
-<a href="https://sketchverify.github.io/">Project Page</a> |
-<a href="https://github.com/h6kplus/SketchVerify">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<img class="teaser-img" src="../images/videomsg_demo.png">
-
-<div class="pub-text" markdown="1">
-
-### Training-Free Guidance in Text-to-Video Generation via Multimodal Planning and Structured Noise Initialization
-<p style="line-height:1.0">
-<font size="2">
-Jialu Li*, Shoubin Yu*, <strong>Han Lin*</strong>, Jaemin Cho, Jaehong Yoon, Mohit Bansal<br />
-arXiv Preprint, 2025<br />
-<a href="https://arxiv.org/pdf/2504.08641">Paper</a> |
-<a href="https://video-msg.github.io/">Project Page</a> |
-<a href="https://github.com/jialuli-luka/Video-MSG">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<img class="teaser-img" src="../images/GKAT.png">
-
-<div class="pub-text" markdown="1">
-
-### Graph Kernel Attention Transformers
-<p style="line-height:1.0">
-<font size="2">
-Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Jack Parker-Holder<br />
-arXiv Preprint, 2021<br />
-<a href="https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf">Paper</a> |
-<a href="https://github.com/HL-hanlin/GKAT">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
 
 
 <p style="clear:both;">* Equal contribution.</p>

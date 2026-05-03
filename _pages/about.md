@@ -769,7 +769,7 @@ Ph.D. in Computer Science<br />
 2021 - 2023<br />
 M.S. in Computer Science (Machine Learning Track)<br />
 <a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a>, advised by <a href="https://www.ee.columbia.edu/~sfchang/">Prof. Shih-Fu Chang</a><br />
-<a href="https://roam.me.columbia.edu/">ROAM Lab</a>, advised by <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie">Prof. Matei Ciocarlie</a> and <a href="https://www.cs.columbia.edu/~shurans/">Prof. Shuran Song</a>
+<a href="https://roam.me.columbia.edu/">ROAM Lab</a>, advised by <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie">Prof. Matei Ciocarlie</a> and <a href="https://shurans.github.io/">Prof. Shuran Song</a>
 </font>
 </p>
 
@@ -823,7 +823,7 @@ Experience
 2023 - Present: Research Assistant, <a href="https://murgelab.cs.unc.edu/">MURGe-Lab</a>, UNC-Chapel Hill (with Prof. Mohit Bansal)<br />
 2021 - 2022: Research Assistant, <a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a>, Columbia University (with Prof. Shih-Fu Chang)<br />
 2021 - 2022: Research Assistant, <a href="https://roam.me.columbia.edu/">ROAM Lab</a>, Columbia University (with Prof. Matei Ciocarlie and Prof. Shuran Song)<br />
-2019 - 2024: Research Collaboration with Prof. <a href="https://research.google/people/KrzysztofChoromanski/">Krzysztof Choromanski</a> (Google Deepmind)<br />
+2019 - 2024: Research Collaboration with Prof. <a href="https://research.google/people/krzysztofchoromanski/?&type=google">Krzysztof Choromanski</a> (Google Deepmind)<br />
 
 
 Professional Service
@@ -840,7 +840,7 @@ Teaching Assistant
 -----
 [COMS 4231 Analysis of Algorithms](http://www.cs.columbia.edu/~mihalis/cs4231/syllabus.html), Columbia University, 2022 Fall<br />
 [COMS 4732 Computer Vision 2: Learning](https://drive.google.com/drive/folders/1WBraYFj2umBYm4yf057BqIJKtwP5KAP5), Columbia University, 2022 Spring<br />
-[COMS 4721 Machine Learning for Data Science](https://www.cs.columbia.edu/~djhsu/coms4771-f20/), Columbia University, 2022 Spring<br />
+[COMS 4721 Machine Learning for Data Science](https://www.cs.columbia.edu/~djhsu/coms4771-f25/), Columbia University, 2022 Spring<br />
 [QMSS 5073 Machine Learning for Social Science](https://www.coursicle.com/columbia/courses/QMSS/G5073/), Columbia University, 2021 Fall<br />
 [IEOR 4007 Optimization Models & Methods for FE](https://www.coursicle.com/columbia/courses/IEOR/E4007/), Columbia University, 2019 Fall<br />
 [IEOR 4418 Transportation Analytics & Logistics](https://www.coursicle.com/columbia/courses/IEOR/E4418/), Columbia University, 2019 Spring

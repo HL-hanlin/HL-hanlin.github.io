@@ -204,7 +204,7 @@ Preprints
 
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/vco_demo.png">
+<img class="teaser-img" src="../images/vco_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -226,7 +226,7 @@ Preprints
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/metacanvas_teaser_12to41s_2x.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/metacanvas_teaser_12to41s_2x.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -248,7 +248,7 @@ Preprints
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -271,7 +271,7 @@ Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit B
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/deer3d_teaser.png">
+<img class="teaser-img" src="../images/deer3d_teaser.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -293,7 +293,7 @@ Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan B
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../videos/verifier_method_website.gif">
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/verifier_method_website.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -316,7 +316,7 @@ Yidong Huang, Zun Wang, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshaf
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/videomsg_demo.png">
+<img class="teaser-img" src="../images/videomsg_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -339,7 +339,7 @@ Jialu Li*, Shoubin Yu*, <strong>Han Lin*</strong>, Jaemin Cho, Jaehong Yoon, Moh
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/GKAT.png">
+<img class="teaser-img" src="../images/GKAT.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -363,7 +363,7 @@ Publications
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/epic_demo_web.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/epic_demo_web.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -385,7 +385,7 @@ Zun Wang, Jaemin Cho, Jialu Li, <strong>Han Lin</strong>, Jaehong Yoon, Yue Zhan
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/HLE_demo.png">
+<img class="teaser-img" src="../images/HLE_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -407,7 +407,7 @@ Center for AI Safety, Scale AI \& HLE Contributors Consortium<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/bifrost1_demo.png">
+<img class="teaser-img" src="../images/bifrost1_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -430,7 +430,7 @@ Center for AI Safety, Scale AI \& HLE Contributors Consortium<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/vedit_demo.png">
+<img class="teaser-img" src="../images/vedit_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -452,7 +452,7 @@ Center for AI Safety, Scale AI \& HLE Contributors Consortium<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../videos/ctrl-adapter_demo.gif">
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/ctrl-adapter_demo.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -477,7 +477,7 @@ Center for AI Safety, Scale AI \& HLE Contributors Consortium<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/dreamrunner_demo_2x.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/dreamrunner_demo_2x.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -500,7 +500,7 @@ Zun Wang, Jialu Li, <strong>Han Lin</strong>, Jaehong Yoon, Mohit Bansal<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/IntegratorTree.png">
+<img class="teaser-img" src="../images/IntegratorTree.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -522,7 +522,7 @@ Krzysztof Choromanski*, Arijit Sehanobish*, Somnath Basu Roy Chowdhury*, <strong
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/videodirectorgpt_teaser_4s.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/videodirectorgpt_teaser_4s.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -545,7 +545,7 @@ Krzysztof Choromanski*, Arijit Sehanobish*, Somnath Basu Roy Chowdhury*, <strong
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/envgen.png">
+<img class="teaser-img" src="../images/envgen.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -568,7 +568,7 @@ Abhay Zala*, Jaemin Cho*, <strong>Han Lin</strong>, Jaehong Yoon, Mohit Bansal<b
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/diagrammergpt_demo_1to7s.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/diagrammergpt_demo_1to7s.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -591,7 +591,7 @@ Abhay Zala, <strong>Han Lin</strong>, Jaemin Cho, Mohit Bansal<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/ICML2023_front_image.png">
+<img class="teaser-img" src="../images/ICML2023_front_image.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -614,7 +614,7 @@ Krzysztof Choromanski*, Arijit Sehanobish*, <strong>Han Lin*</strong>, Yunfan Zh
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/smkd_demo.png">
+<img class="teaser-img" src="../images/smkd_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -637,7 +637,7 @@ Krzysztof Choromanski*, Arijit Sehanobish*, <strong>Han Lin*</strong>, Yunfan Zh
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline><source src="../videos/tandom3d_demo_4s.mp4" type="video/mp4"></video>
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/tandom3d_demo_4s.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -660,7 +660,7 @@ Jingxi Xu*, <strong>Han Lin*</strong>, Shuran Song, Matei Ciocarlie<br />
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/block_toeplitz_demo.png">
+<img class="teaser-img" src="../images/block_toeplitz_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -684,7 +684,7 @@ Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Tianyi Zhang, 
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/HRF.png">
+<img class="teaser-img" src="../images/HRF.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -708,7 +708,7 @@ Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Yuanzhe Ma*, A
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/OMC2.png">
+<img class="teaser-img" src="../images/OMC2.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -738,7 +738,7 @@ Education
 
 <div class="pub-entry" markdown="1">
 
-<img class="edu-logo" src="../images/unc_logo.png">
+<img class="edu-logo" src="../images/unc_logo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -758,7 +758,7 @@ Ph.D. in Computer Science<br />
 
 <div class="pub-entry" markdown="1">
 
-<img class="edu-logo" src="../images/columbia_logo.jpg">
+<img class="edu-logo" src="../images/columbia_logo.jpg" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -779,7 +779,7 @@ M.S. in Computer Science (Machine Learning Track)<br />
 
 <div class="pub-entry" markdown="1">
 
-<img class="edu-logo" src="../images/columbia_logo.jpg">
+<img class="edu-logo" src="../images/columbia_logo.jpg" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 
@@ -798,7 +798,7 @@ M.S. in Financial Engineering
 
 <div class="pub-entry" markdown="1">
 
-<img class="edu-logo" src="../images/cufe_logo.webp">
+<img class="edu-logo" src="../images/cufe_logo.webp" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
 

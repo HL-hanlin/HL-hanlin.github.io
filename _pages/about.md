@@ -188,8 +188,8 @@ Publications
    aspect ratios (UNC wide, Columbia tall, CUFE square) all render at
    roughly the same visible size, keeping the rows aligned. */
 .edu-logo {
-  width: 110px;
-  height: 110px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   object-position: 50% 50%;
   background-color: #fff;

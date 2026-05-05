@@ -817,12 +817,113 @@ B.S. in Financial Engineering
 
 Experience
 -----
-2025.5 - 2026.5: Research Scientist Intern, <a href="https://ai.meta.com/research/movie-gen/">Movie Gen Team</a>, Meta Superintelligence Lab<br />
-2024.5 - 2024.12: Research Scientist Intern, <a href="https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/">JEPA Team</a>, Meta FAIR Lab<br />
-2023 - Present: Research Assistant, <a href="https://murgelab.cs.unc.edu/">MURGe-Lab</a>, UNC-Chapel Hill (with Prof. Mohit Bansal)<br />
-2021 - 2022: Research Assistant, <a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a>, Columbia University (with Prof. Shih-Fu Chang)<br />
-2021 - 2022: Research Assistant, <a href="https://roam.me.columbia.edu/">ROAM Lab</a>, Columbia University (with Prof. Matei Ciocarlie and Prof. Shuran Song)<br />
-2019 - 2024: Research Collaboration with Prof. <a href="https://research.google/people/krzysztofchoromanski/?&type=google">Krzysztof Choromanski</a> (Google Deepmind)<br />
+
+<div class="pub-entry" markdown="1">
+
+<img class="edu-logo" src="../images/meta_logo.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+
+### Meta
+<p style="line-height:1.0">
+<font size="2">
+May 2025 - Dec 2025,
+Research Scientist Intern, <a href="https://ai.meta.com/research/movie-gen/">Movie Gen Team</a>, MSL<br />
+<a href="https://arxiv.org/abs/2512.11464">Exploring MLLM-Diffusion Information Transfer with MetaCanvas</a>, under review
+<br /><br />
+May 2024 - Dec 2024,
+Research Scientist Intern, <a href="https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/">JEPA Team</a>, FAIR Lab<br />
+<a href="https://arxiv.org/abs/2512.11464">Latent Prediction Architecture For Procedural Video Representation Learning</a>, <strong>ICLR</strong> 2025
+</font>
+</p>
+
+</div>
+<!--
+</div>
+-----
+
+<div class="pub-entry" markdown="1">
+
+<img class="edu-logo" src="../images/unc_logo.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+
+### University of North Carolina at Chapel Hill
+<p style="line-height:1.0">
+<font size="2">
+2023 - Present<br />
+Research Assistant<br />
+<a href="https://murgelab.cs.unc.edu/">MURGe-Lab</a>, with <a href="https://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a>
+</font>
+</p>
+
+</div> -->
+<!--
+</div>
+-----
+
+<div class="pub-entry" markdown="1">
+
+<img class="edu-logo" src="../images/columbia_engineering_logo.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+
+### Columbia University
+<p style="line-height:1.0">
+<font size="2">
+2021 - 2022<br />
+Research Assistant<br />
+<a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a>, with <a href="https://www.ee.columbia.edu/~sfchang/">Prof. Shih-Fu Chang</a>
+</font>
+</p>
+
+</div> -->
+<!--
+</div>
+-----
+
+<div class="pub-entry" markdown="1">
+
+<img class="edu-logo" src="../images/columbia_engineering_logo.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+
+### Columbia University
+<p style="line-height:1.0">
+<font size="2">
+2021 - 2022<br />
+Research Assistant<br />
+<a href="https://roam.me.columbia.edu/">ROAM Lab</a>, with <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie">Prof. Matei Ciocarlie</a> and <a href="https://shurans.github.io/">Prof. Shuran Song</a>
+</font>
+</p>
+
+</div> -->
+
+</div>
+-----
+
+<div class="pub-entry" markdown="1">
+
+<img class="edu-logo" src="../images/deepmind_logo.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+
+### Google DeepMind
+<p style="line-height:1.0">
+<font size="2">
+2019 - 2024,
+Research Collaboration with <a href="https://research.google/people/krzysztofchoromanski/?&type=google">Prof. Krzysztof Choromanski</a><br /><br />
+<a href="https://arxiv.org/pdf/2406.15881v1">Fast Tree-Field Integrators</a>, <strong>NeurIPS</strong> 2024<br />
+<a href="https://arxiv.org/abs/2302.00942">Efficient Graph Field Integrators Meet Point Clouds</a>, <strong>ICML</strong> 2023<br />
+<a href="https://arxiv.org/abs/2107.07999">From Block-Toeplitz Matrices to Differential Equations on Graphs</a>, <strong>ICML</strong> 2022<br />
+<a href="https://arxiv.org/abs/2110.04367">Hybrid Random Features</a>, <strong>ICLR</strong> 2022<br />
+<a href="https://arxiv.org/abs/2005.13590">Demystifying Orthogonal Monte Carlo and Beyond</a>, <strong>NeurIPS</strong> 2020<br />
+</font>
+</p>
+
+</div>
+
+</div>
 
 
 Professional Service

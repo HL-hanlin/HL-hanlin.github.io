@@ -766,9 +766,13 @@ Ph.D. in Computer Science<br />
 <p style="line-height:1.0">
 <font size="2">
 2021 - 2023<br />
-M.S. in Computer Science (Machine Learning Track)<br />
+M.S. in Computer Science (Machine Learning Track)<br /><br />
 <a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a>, advised by <a href="https://www.ee.columbia.edu/~sfchang/">Prof. Shih-Fu Chang</a><br />
+<a href="https://arxiv.org/abs/2303.15466">Supervised Masked Knowledge Distillation for Few-Shot Transformers</a>, <strong>CVPR</strong> 2023
+<br /><br />
 <a href="https://roam.me.columbia.edu/">ROAM Lab</a>, advised by <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie">Prof. Matei Ciocarlie</a> and <a href="https://shurans.github.io/">Prof. Shuran Song</a>
+<br />
+<a href="https://arxiv.org/abs/2209.08772">Active Tactile Exploration for 3D Object Recognition</a>, <strong>ICRA</strong> 2023
 </font>
 </p>
 

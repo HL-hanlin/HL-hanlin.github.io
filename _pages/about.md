@@ -213,7 +213,7 @@ Preprints
 <p style="line-height:1.0">
 <font size="2">
 Yidong Huang*, Zun Wang*, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
-<strong>arXiv Preprint</strong>, 2025<br />
+<strong>arXiv Preprint</strong>, 2026<br />
 <a href="https://arxiv.org/abs/2605.14269">Paper</a> |
 <a href="https://phy-motion.github.io/">Project Page</a>
 <br />

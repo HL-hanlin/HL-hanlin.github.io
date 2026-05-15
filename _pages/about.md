@@ -205,7 +205,7 @@ Preprints
 
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/vco_demo.png" loading="lazy" decoding="async">
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/phymotion_demo.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
 
@@ -227,7 +227,7 @@ Yidong Huang*, Zun Wang*, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidsh
 -----
 <div class="pub-entry" markdown="1">
 
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/phymotion_demo.mp4" type="video/mp4"></video>
+<img class="teaser-img" src="../images/vco_demo.png" loading="lazy" decoding="async">
 
 <div class="pub-text" markdown="1">
   

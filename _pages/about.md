@@ -61,6 +61,7 @@ News
 }
 </style>
 <div class="news-scroll">
+∙ [2026-05] <a href="https://phy-motion.github.io">PhyMotion</a> released on arXiv<br />
 ∙ [2026-05] <a href="https://arxiv.org/pdf/2505.21876">EPiC</a> accepted to <a href="https://icml.cc">ICML 2026</a><br />
 ∙ [2026-03] <a href="https://arxiv.org/abs/2603.16792">V-Co</a> released on arXiv<br />
 ∙ [2026-02] <a href="https://arxiv.org/abs/2602.14941">AnchorWeave</a> released on arXiv<br />
@@ -208,11 +209,33 @@ Preprints
 
 <div class="pub-text" markdown="1">
 
+### PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation
+<p style="line-height:1.0">
+<font size="2">
+Yidong Huang*, Zun Wang*, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/abs/2605.14269">Paper</a> |
+<a href="https://phy-motion.github.io/">Project Page</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/phymotion_demo.mp4" type="video/mp4"></video>
+
+<div class="pub-text" markdown="1">
+  
 ### V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising
 <p style="line-height:1.0">
 <font size="2">
 <strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal<br />
-<strong>arXiv Preprint</strong>, 2025<br />
+<strong>arXiv Preprint</strong>, 2026<br />
 <a href="https://arxiv.org/abs/2603.16792">Paper</a> |
 <a href="https://github.com/HL-hanlin/V-Co">Code</a>
 <br />
@@ -256,7 +279,7 @@ Preprints
 <p style="line-height:1.0">
 <font size="2">
 Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
-<strong>arXiv Preprint</strong>, 2025<br />
+<strong>arXiv Preprint</strong>, 2026<br />
 <a href="https://arxiv.org/abs/2602.14941">Paper</a> |
 <a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> |
 <a href="https://github.com/wz0919/AnchorWeave">Code</a>

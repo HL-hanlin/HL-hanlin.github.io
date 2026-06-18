@@ -61,6 +61,7 @@ News
 }
 </style>
 <div class="news-scroll">
+∙ [2026-06] <a href="https://arxiv.org/abs/2603.16792">V-Co</a>, <a href="https://arxiv.org/abs/2602.14941">AnchorWeave</a>, and <a href="https://arxiv.org/pdf/2511.14086v1">Deer3D</a> accepted to ECCV 2026<br />
 ∙ [2026-05] <a href="https://phy-motion.github.io">PhyMotion</a> released on arXiv<br />
 ∙ [2026-05] <a href="https://arxiv.org/pdf/2505.21876">EPiC</a> accepted to <a href="https://icml.cc">ICML 2026</a><br />
 ∙ [2026-03] <a href="https://arxiv.org/abs/2603.16792">V-Co</a> released on arXiv<br />
@@ -227,28 +228,6 @@ Yidong Huang*, Zun Wang*, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidsh
 -----
 <div class="pub-entry" markdown="1">
 
-<img class="teaser-img" src="../images/vco_demo.png" loading="lazy" decoding="async">
-
-<div class="pub-text" markdown="1">
-  
-### V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising
-<p style="line-height:1.0">
-<font size="2">
-<strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal<br />
-<strong>arXiv Preprint</strong>, 2026<br />
-<a href="https://arxiv.org/abs/2603.16792">Paper</a> |
-<a href="https://github.com/HL-hanlin/V-Co">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
 <video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/metacanvas_teaser_12to41s_2x.mp4" type="video/mp4"></video>
 
 <div class="pub-text" markdown="1">
@@ -260,51 +239,6 @@ Yidong Huang*, Zun Wang*, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidsh
 <strong>arXiv Preprint</strong>, 2025<br />
 <a href="https://arxiv.org/abs/2512.11464">Paper</a> |
 <a href="https://metacanvas.github.io/">Project Page</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video>
-
-<div class="pub-text" markdown="1">
-
-### AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories
-<p style="line-height:1.0">
-<font size="2">
-Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
-<strong>arXiv Preprint</strong>, 2026<br />
-<a href="https://arxiv.org/abs/2602.14941">Paper</a> |
-<a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> |
-<a href="https://github.com/wz0919/AnchorWeave">Code</a>
-<br />
-</font>
-</p>
-
-</div>
-
-</div>
-
------
-<div class="pub-entry" markdown="1">
-
-<img class="teaser-img" src="../images/deer3d_teaser.png" loading="lazy" decoding="async">
-
-<div class="pub-text" markdown="1">
-
-### Error-Driven Scene Editing for 3D Grounding in Large Language Models
-<p style="line-height:1.0">
-<font size="2">
-Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal<br />
-<strong>arXiv Preprint</strong>, 2025<br />
-<a href="https://arxiv.org/pdf/2511.14086v1">Paper</a> |
-<a href="https://github.com/zhangyuejoslin/Deer-3D">Code</a>
 <br />
 </font>
 </p>
@@ -383,6 +317,75 @@ Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Jack Parker-Ho
 
 
 Publications
+
+-----
+<div class="pub-entry" markdown="1">
+
+<video class="teaser-img" width="160" height="110" autoplay loop muted playsinline preload="metadata"><source src="../videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video>
+
+<div class="pub-text" markdown="1">
+
+### AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories
+<p style="line-height:1.0">
+<font size="2">
+Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2026<br />
+<a href="https://arxiv.org/abs/2602.14941">Paper</a> |
+<a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> |
+<a href="https://github.com/wz0919/AnchorWeave">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+
+-----
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../images/vco_demo.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+  
+### V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising
+<p style="line-height:1.0">
+<font size="2">
+<strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2026<br />
+<a href="https://arxiv.org/abs/2603.16792">Paper</a> |
+<a href="https://github.com/HL-hanlin/V-Co">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
+-----
+<div class="pub-entry" markdown="1">
+
+<img class="teaser-img" src="../images/deer3d_teaser.png" loading="lazy" decoding="async">
+
+<div class="pub-text" markdown="1">
+
+### Error-Driven Scene Editing for 3D Grounding in Large Language Models
+<p style="line-height:1.0">
+<font size="2">
+Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal<br />
+<strong>arXiv Preprint</strong>, 2025<br />
+<a href="https://arxiv.org/pdf/2511.14086v1">Paper</a> |
+<a href="https://github.com/zhangyuejoslin/Deer-3D">Code</a>
+<br />
+</font>
+</p>
+
+</div>
+
+</div>
+
 -----
 <div class="pub-entry" markdown="1">
 

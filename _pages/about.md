@@ -329,7 +329,7 @@ Publications
 <p style="line-height:1.0">
 <font size="2">
 Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal<br />
-<strong>ECCV</strong>, 2026<br />
+<strong>ECCV</strong> 2026<br />
 <a href="https://arxiv.org/abs/2602.14941">Paper</a> |
 <a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> |
 <a href="https://github.com/wz0919/AnchorWeave">Code</a>
@@ -353,7 +353,7 @@ Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit B
 <p style="line-height:1.0">
 <font size="2">
 <strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal<br />
-<strong>ECCV</strong>, 2026<br />
+<strong>ECCV</strong> 2026<br />
 <a href="https://arxiv.org/abs/2603.16792">Paper</a> |
 <a href="https://github.com/HL-hanlin/V-Co">Code</a>
 <br />
@@ -375,7 +375,7 @@ Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit B
 <p style="line-height:1.0">
 <font size="2">
 Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal<br />
-<strong>ECCV</strong>, 2026<br />
+<strong>ECCV</strong> 2026<br />
 <a href="https://arxiv.org/pdf/2511.14086v1">Paper</a> |
 <a href="https://github.com/zhangyuejoslin/Deer-3D">Code</a>
 <br />

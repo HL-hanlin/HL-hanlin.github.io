@@ -317,7 +317,6 @@ Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Jack Parker-Ho
 
 
 Publications
-
 -----
 <div class="pub-entry" markdown="1">
 

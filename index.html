@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Han Lin | UNC Chapel Hill</title>
+  <meta name="author" content="Han Lin">
+  <meta name="description" content="Han Lin is a Ph.D. student at UNC Chapel Hill, researching computer vision, multimodal learning, controllable generation, and world modeling.">
+  <link rel="canonical" href="https://hl-hanlin.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Han Lin | UNC Chapel Hill">
+  <meta property="og:description" content="Computer vision, multimodal learning, and controllable world modeling.">
+  <meta property="og:url" content="https://hl-hanlin.github.io/">
+  <meta property="og:image" content="https://hl-hanlin.github.io/images/profile.png">
+  <link rel="icon" type="image/png" href="images/profile.png">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="custom.css?v=74412fb3badf">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#publications">Skip to publications</a>
+  <nav class="section-drip-nav" aria-label="Page sections"><a href="#about"><span>About</span></a>
+<a href="#research"><span>Research</span></a>
+<a href="#news"><span>News</span></a>
+<a href="#publications"><span>Publications</span></a>
+<a href="#preprints"><span>Preprints</span></a>
+<a href="#education"><span>Education</span></a>
+<a href="#experience"><span>Experience</span></a>
+<a href="#service"><span>Service</span></a>
+<a href="#teaching"><span>Teaching</span></a></nav>
+  <main class="site-main">
+    <header id="about" class="page-section">
+      <div class="profile-grid">
+        <div class="profile-photo"><img src="images/profile.png" width="1254" height="1254" alt="Portrait of Han Lin" fetchpriority="high" decoding="async"></div>
+        <div class="profile-copy">
+          <h1>Han Lin</h1>
+          <p class="profile-affiliation">MURGe-Lab &amp; UNC-NLP Group</p>
+          <div class="contact-links" aria-label="Contact and profiles"><div class="contact-line"><a href="mailto:hanlincs@cs.unc.edu"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="4" width="20" height="16" rx="2.5"></rect><path d="m3.5 6 8.5 6.5L20.5 6" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>hanlincs@cs.unc.edu</span></a><a href="files/Han_Lin_Resume.pdf"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"></path><path d="M14 2v6h6" fill="#fff" opacity=".7"></path><path d="M8 12h8v1.5H8zm0 4h6v1.5H8z" fill="#fff"></path></svg><span>CV</span></a><a href="https://scholar.google.com/citations?user=Z9s5gHEAAAAJ&amp;hl=en"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 3 1.5 9 12 15 22.5 9 12 3Z"></path>
+                    <path d="M5 12.1v4.2c0 1.2 3.1 3.2 7 3.2s7-2 7-3.2v-4.2l-7 4-7-4Z"></path>
+                  </svg><span>Google Scholar</span></a><a href="https://github.com/HL-hanlin"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.7.5.6 5.6.6 11.9c0 5 3.3 9.3 7.9 10.8.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.5 2.7 3.2 1.9.1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.5.2 2.8.1 3.1.8.9 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.8C23.4 5.6 18.3.5 12 .5Z"></path>
+                  </svg><span>GitHub</span></a><a href="https://twitter.com/hanlin_hl"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.9 2.5h3.4l-7.4 8.5 8.7 11.5h-6.8l-5.3-7-6.1 7H2l7.9-9L1.6 2.5h7l4.8 6.4 5.5-6.4Zm-1.2 18h1.9L7.6 4.4h-2l12.1 16.1Z"></path>
+                  </svg><span>Twitter</span></a><a href="https://www.linkedin.com/in/han-lin-9336981a3/"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="2.5"></rect><path d="M6 10h3v8H6zm5 0h2.9v1.1c.6-.9 1.5-1.4 2.6-1.4 2.1 0 3.5 1.3 3.5 3.8V18h-3v-4c0-1.1-.4-1.8-1.4-1.8s-1.6.7-1.6 1.8v4h-3z" fill="#fff"></path><circle cx="7.5" cy="6.8" r="1.6" fill="#fff"></circle></svg><span>LinkedIn</span></a><a href="files/wechat.pdf"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M9 2C4.6 2 1 5 1 8.7c0 2 1 3.7 2.7 5L3 17l3.5-1.8c.8.2 1.6.3 2.5.3 4.4 0 8-3 8-6.8S13.4 2 9 2Z"></path><circle cx="6" cy="7.2" r="1" fill="#fff"></circle><circle cx="11.8" cy="7.2" r="1" fill="#fff"></circle><path d="M16 9c-3.9 0-7 2.6-7 5.8s3.1 5.8 7 5.8c.8 0 1.6-.1 2.3-.3L21.5 22l-.8-3.1c1.5-1 2.3-2.5 2.3-4.1C23 11.6 19.9 9 16 9Z" stroke="#fff" stroke-width="1"></path><circle cx="13.5" cy="13.6" r=".9" fill="#fff"></circle><circle cx="18.6" cy="13.6" r=".9" fill="#fff"></circle></svg><span>WeChat</span></a></div></div>
+          <p class="profile-intro">Han Lin is a 4th-year Ph.D. student at the <a href="https://murgelab.cs.unc.edu/">MURGe-Lab</a>, <a href="https://www.unc.edu">UNC at Chapel Hill</a>, advised by <a href="https://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a>. His research broadly lies in computer vision, multimodal learning, and theory-grounded efficient algorithms, with a focus on controllable and interactive world modeling.</p>
+          <div class="bio-details"><p>He received his M.S. in Computer Science from <a href="https://www.columbia.edu">Columbia University</a>, where he was a member of the <a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a> advised by <a href="https://www.ee.columbia.edu/~sfchang/">Prof. Shih-Fu Chang</a> and the <a href="https://roam.me.columbia.edu/">ROAM Lab</a> advised by <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie">Prof. Matei Ciocarlie</a> and <a href="https://shurans.github.io/">Prof. Shuran Song</a>. He also holds an M.S. in Financial Engineering from Columbia University and a B.S. in Financial Engineering from <a href="http://en.cufe.edu.cn">Central University of Finance and Economics</a>. He is fortunate to collaborate with <a href="https://research.google/people/krzysztofchoromanski/">Prof. Krzysztof Choromanski</a> from <a href="https://deepmind.google">Google Deepmind</a> and has completed internships with the <a href="https://ai.meta.com/research/movie-gen/">Movie Gen</a> team at <a href="https://www.meta.com">Meta Superintelligence Labs</a> and the <a href="https://ai.meta.com/research/vjepa/">JEPA</a> and DReaM teams at <a href="https://ai.meta.com/blog/meta-fair-research-new-releases/">Meta FAIR</a>.</p></div>
+        </div>
+      </div>
+    </header>
+
+    <section id="research" class="page-section" aria-labelledby="research-heading">
+      <h2 id="research-heading">Research</h2>
+      <ul class="research-list"><li><strong>Explicit Control via Interpretable Interfaces</strong>: developing interpretable control signals for image and video synthesis, including <a href="https://ctrl-adapter.github.io/">CTRL-Adapter</a>, <a href="https://videodirectorgpt.github.io/">VideoDirectorGPT</a>, <a href="https://zunwang1.github.io/AnchorWeave">AnchorWeave</a>, <a href="https://zunwang1.github.io/Epic">EPiC</a>, <a href="https://zunwang1.github.io/DreamRunner">DreamRunner</a>, and <a href="https://diagrammergpt.github.io/">DiagrammerGPT</a>.</li>
+<li><strong>Representation Learning & Generative Priors</strong>: learning transferable visual representations, predicting future states in latent space, and strengthening generative models with multimodal priors and semantic alignment, including <a href="https://metacanvas.github.io/">MetaCanvas</a>, <a href="https://bifrost-1.github.io/">Bifrost-1</a>, <a href="https://arxiv.org/pdf/2410.03478">VEDiT</a>, <a href="https://arxiv.org/abs/2603.16792">V-Co</a>, and <a href="https://arxiv.org/abs/2303.15466">SMKD</a>.</li>
+<li><strong>Planning, Verification & Embodied Intelligence</strong>: using language-guided planning, verification, physics-based rewards, and active perception for video generation, 3D scene understanding, and embodied agents, including <a href="https://phy-motion.github.io/">PhyMotion</a>, <a href="https://envgen-llm.github.io/">EnvGen</a>, <a href="https://sketchverify.github.io/">SketchVerify</a>, <a href="https://video-msg.github.io/">Video-MSG</a>, <a href="https://arxiv.org/pdf/2511.14086v1">DEER-3D</a>, and <a href="https://jxu.ai/tandem3d/">Tandem3D</a>.</li>
+<li><strong>Efficient & Theory-Grounded ML</strong>: developing scalable Transformers, kernel methods, random features, and graph algorithms, including <a href="https://arxiv.org/abs/2110.04367">HRF</a>, <a href="https://arxiv.org/abs/2005.13590">OMC</a>, <a href="http://arxiv.org/abs/2107.07999">GKAT</a>, <a href="https://arxiv.org/pdf/2406.15881v1">FTFIs</a>, and <a href="https://arxiv.org/abs/2302.00942">Graph Field Integrators</a>.</li></ul>
+      <p>Feel free to reach out to me if you would like to chat about any research ideas!</p>
+    </section>
+
+    <section id="news" class="page-section" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <ul id="newsList" class="news-list"><li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-09">2026-09</time><div class="news-text"><a href="https://metacanvas.github.io/">MetaCanvas</a> and <a href="https://phy-motion.github.io/">PhyMotion</a> accepted to <a href="https://neurips.cc/">NeurIPS 2026</a>.</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-06">2026-06</time><div class="news-text"><a href="https://arxiv.org/abs/2603.16792">V-Co</a>, <a href="https://arxiv.org/abs/2602.14941">AnchorWeave</a>, and <a href="https://arxiv.org/pdf/2511.14086v1">Deer3D</a> accepted to <a href="https://eccv.ecva.net/">ECCV 2026</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-05">2026-05</time><div class="news-text">Glad to start my summer internship with the DReaM team at <a href="https://ai.meta.com/blog/meta-fair-research-new-releases/">Meta FAIR</a>.</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-05">2026-05</time><div class="news-text"><a href="https://phy-motion.github.io">PhyMotion</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-05">2026-05</time><div class="news-text"><a href="https://arxiv.org/pdf/2505.21876">EPiC</a> accepted to <a href="https://icml.cc">ICML 2026</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-03">2026-03</time><div class="news-text"><a href="https://arxiv.org/abs/2603.16792">V-Co</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-02">2026-02</time><div class="news-text"><a href="https://arxiv.org/abs/2602.14941">AnchorWeave</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-01">2026-01</time><div class="news-text">We are organizing the <a href="https://any2any-mllm.github.io/workshop-cvpr26">Any-To-Any Multimodal Learning Workshop</a> at <a href="https://cvpr.thecvf.com">CVPR 2026</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2026-01">2026-01</time><div class="news-text"><a href="https://www.nature.com/articles/s41586-025-09962-4">Humanity's Last Exam</a> published in <a href="https://www.nature.com">Nature</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-12">2025-12</time><div class="news-text"><a href="https://arxiv.org/pdf/2512.11464">MetaCanvas</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-11">2025-11</time><div class="news-text"><a href="https://arxiv.org/pdf/2511.17450">SketchVerify</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-11">2025-11</time><div class="news-text"><a href="https://arxiv.org/pdf/2511.14086v1">Deer3D</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-09">2025-09</time><div class="news-text"><a href="https://arxiv.org/pdf/2508.05954">Bifrost-1</a> accepted to <a href="https://neurips.cc">NeurIPS 2025</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-05">2025-05</time><div class="news-text">Started research scientist internship with the <a href="https://ai.meta.com/research/movie-gen/">Media Generation Team</a> at Meta Superintelligence Labs</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-04">2025-04</time><div class="news-text"><a href="https://arxiv.org/pdf/2504.08641">Video-MSG</a> released on arXiv</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-01">2025-01</time><div class="news-text"><a href="https://arxiv.org/pdf/2410.03478">VEDiT</a> accepted to <a href="https://iclr.cc">ICLR 2025</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2025-01">2025-01</time><div class="news-text"><a href="https://arxiv.org/abs/2404.09967">CTRL-Adapter</a> accepted to <a href="https://iclr.cc">ICLR 2025</a> as <span style="color:red; font-weight:bold">Oral</span> (top 1.82%)</div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2024-12">2024-12</time><div class="news-text"><a href="https://arxiv.org/pdf/2411.16657">DreamRunner</a> accepted to <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2024-09">2024-09</time><div class="news-text"><a href="https://arxiv.org/pdf/2406.15881v1">FTFIs</a> accepted to <a href="https://neurips.cc">NeurIPS 2024</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2024-07">2024-07</time><div class="news-text">Three papers (<a href="https://arxiv.org/abs/2309.15091">VideoDirectorGPT</a>, <a href="https://arxiv.org/abs/2403.12014">EnvGen</a>, <a href="https://arxiv.org/abs/2310.12128">DiagrammerGPT</a>) accepted to <a href="https://colmweb.org">COLM 2024</a></div></div></li>
+<li class="news-item"><span class="news-dot" aria-hidden="true"></span><div class="news-body"><time class="news-date" datetime="2024-05">2024-05</time><div class="news-text">Started research scientist internship with the <a href="https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/">JEPA team</a> at Meta FAIR Lab</div></div></li></ul>
+      <button type="button" id="newsToggle" class="news-toggle" aria-controls="newsList" aria-expanded="false" hidden>Show all news</button>
+    </section>
+
+    <section id="publications" class="page-section" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Publications</h2>
+      <p class="publication-note">* Equal contribution. Selected papers are <span class="highlight">highlighted</span>. See also <a href="https://scholar.google.com/citations?user=Z9s5gHEAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+      <div class="publication-tools"><button type="button" id="motionToggle" aria-pressed="false" hidden>Pause video previews</button></div>
+      <div id="tagFilter" class="tag-filter" role="group" aria-label="Filter publications by research area"><button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
+<button type="button" class="tag-btn" data-tag="generation" aria-pressed="false">Generation</button>
+<button type="button" class="tag-btn" data-tag="multimodal" aria-pressed="false">Multimodal</button>
+<button type="button" class="tag-btn" data-tag="embodied" aria-pressed="false">Embodied AI</button>
+<button type="button" class="tag-btn" data-tag="efficient" aria-pressed="false">Efficient ML</button>
+<button type="button" class="tag-btn" data-tag="benchmark" aria-pressed="false">Benchmark</button></div>
+      <p id="publicationStatus" class="sr-only" role="status" aria-live="polite"></p>
+      <div class="publication-list"><article class="publication-card featured" data-tags="generation,multimodal" data-year="2026">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="Exploring MLLM-Diffusion Information Transfer with MetaCanvas — video preview"><source src="videos/metacanvas_teaser_12to41s_2x.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2512.11464">Exploring MLLM-Diffusion Information Transfer with MetaCanvas</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-0"><strong>Han Lin</strong>, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang</div></div>
+        <p class="publication-venue"><strong>NeurIPS</strong> 2026</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2512.11464">Paper</a> <span aria-hidden="true">/</span> <a href="https://metacanvas.github.io/">Project Page</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="generation,embodied" data-year="2026">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation — video preview"><source src="videos/phymotion_demo.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2605.14269">PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-1">Yidong Huang*, Zun Wang*, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>NeurIPS</strong> 2026</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2605.14269">Paper</a> <span aria-hidden="true">/</span> <a href="https://phy-motion.github.io/">Project Page</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="generation" data-year="2026">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories — video preview"><source src="videos/anchorweaver_demo_4s.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2602.14941">AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-2">Zun Wang, <strong>Han Lin</strong>, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>ECCV</strong> 2026</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2602.14941">Paper</a> <span aria-hidden="true">/</span> <a href="https://zunwang1.github.io/AnchorWeave">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/wz0919/AnchorWeave">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="generation,multimodal" data-year="2026">
+      <div class="publication-media"><img src="images/vco_demo.png" alt="V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2603.16792">V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-3"><strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>ECCV</strong> 2026</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2603.16792">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/V-Co">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="multimodal,embodied" data-year="2026">
+      <div class="publication-media"><img src="images/deer3d_teaser.png" alt="Error-Driven Scene Editing for 3D Grounding in Large Language Models — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2511.14086v1">Error-Driven Scene Editing for 3D Grounding in Large Language Models</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-4">Yue Zhang, Zun Wang, <strong>Han Lin</strong>, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>ECCV</strong> 2026</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2511.14086v1">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/zhangyuejoslin/Deer-3D">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="generation" data-year="2026">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="EPiC: Efficient Video Camera Control Learning with Precise Anchor-Video Guidance — video preview"><source src="videos/epic_demo_web.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2505.21876">EPiC: Efficient Video Camera Control Learning with Precise Anchor-Video Guidance</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-5">Zun Wang, Jaemin Cho, Jialu Li, <strong>Han Lin</strong>, Jaehong Yoon, Yue Zhang, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>ICML</strong> 2026</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2505.21876">Paper</a> <span aria-hidden="true">/</span> <a href="https://zunwang1.github.io/Epic">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/wz0919/EPiC">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="benchmark" data-year="2026">
+      <div class="publication-media"><img src="images/HLE_demo.png" alt="A Benchmark of Expert-Level Academic Questions to Assess AI Capabilities — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://www.nature.com/articles/s41586-025-09962-4">A Benchmark of Expert-Level Academic Questions to Assess AI Capabilities</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-6">Center for AI Safety, Scale AI &amp; HLE Contributors Consortium</div></div>
+        <p class="publication-venue"><strong>Nature</strong> 2026</p>
+        <p class="publication-links"><a href="https://www.nature.com/articles/s41586-025-09962-4">Paper</a> <span aria-hidden="true">/</span> <a href="https://agi.safe.ai">Project Page</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="generation,multimodal" data-year="2025">
+      <div class="publication-media"><img src="images/bifrost1_demo.png" alt="Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2508.05954">Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-7"><strong>Han Lin</strong>, Jaemin Cho, Amir Zadeh, Chuan Li, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>NeurIPS</strong> 2025</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2508.05954">Paper</a> <span aria-hidden="true">/</span> <a href="https://bifrost-1.github.io/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/Bifrost-1">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="multimodal" data-year="2025">
+      <div class="publication-media"><img src="images/vedit_demo.png" alt="VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2410.03478">VEDiT: Latent Prediction Architecture for Procedural Video Representation Learning</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-8"><strong>Han Lin</strong>, Tushar Nagarajan, Nicolas Ballas, Mido Assran, Mojtaba Komeili, Mohit Bansal, Koustuv Sinha</div></div>
+        <p class="publication-venue"><strong>ICLR</strong> 2025</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2410.03478">Paper</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/39035545/vedit-latent-prediction-architecture-for-procedural-video-representation-learning">Video</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="generation" data-year="2025">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model — video preview"><source src="videos/ctrl-adapter_demo.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2404.09967">CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-9"><strong>Han Lin*</strong>, Jaemin Cho*, Abhay Zala, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>ICLR</strong> 2025, <span style="color:red; font-weight:bold">(Oral, Top 1.8%)</span></p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2404.09967">Paper</a> <span aria-hidden="true">/</span> <a href="https://ctrl-adapter.github.io/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/Ctrl-Adapter">Code</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/39033741/ctrladapter-an-efficient-and-versatile-framework-for-adapting-diverse-controls-to-any-diffusion-model">Video</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/39036878/ctrladapter-an-efficient-and-versatile-framework-for-adapting-diverse-controls-to-any-diffusion-model">Oral Talk</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="generation" data-year="2025">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="DreamRunner: Fine-Grained Storytelling Video Generation with Retrieval-Augmented Motion Adaptation — video preview"><source src="videos/dreamrunner_demo_2x.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2411.16657">DreamRunner: Fine-Grained Storytelling Video Generation with Retrieval-Augmented Motion Adaptation</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-10">Zun Wang, Jialu Li, <strong>Han Lin</strong>, Jaehong Yoon, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>AAAI</strong> 2025</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2411.16657">Paper</a> <span aria-hidden="true">/</span> <a href="https://zunwang1.github.io/DreamRunner">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/wz0919/DreamRunner">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="efficient" data-year="2024">
+      <div class="publication-media"><img src="images/IntegratorTree.png" alt="Fast Tree-Field Integrators: From Low Displacement Rank to Topological Transformers — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2406.15881v1">Fast Tree-Field Integrators: From Low Displacement Rank to Topological Transformers</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-11">Krzysztof Choromanski*, Arijit Sehanobish*, Somnath Basu Roy Chowdhury*, <strong>Han Lin*</strong>, Avinava Dubey, Tamas Sarlos, Snigdha Chaturvedi</div></div>
+        <p class="publication-venue"><strong>NeurIPS</strong> 2024</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2406.15881v1">Paper</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/39024882/fast-treefield-integrators-from-low-displacement-rank-to-topological-transformers">Video</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="generation,multimodal" data-year="2024">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning — video preview"><source src="videos/videodirectorgpt_teaser_4s.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2309.15091">VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-12"><strong>Han Lin</strong>, Abhay Zala, Jaemin Cho, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>COLM</strong> 2024</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2309.15091">Paper</a> <span aria-hidden="true">/</span> <a href="https://videodirectorgpt.github.io">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/VideoDirectorGPT">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="multimodal,embodied" data-year="2024">
+      <div class="publication-media"><img src="images/envgen.png" alt="EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2403.12014">EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-13">Abhay Zala*, Jaemin Cho*, <strong>Han Lin</strong>, Jaehong Yoon, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>COLM</strong> 2024</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2403.12014">Paper</a> <span aria-hidden="true">/</span> <a href="https://envgen-llm.github.io/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/aszala/envgen">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="generation,multimodal" data-year="2024">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning — video preview"><source src="videos/diagrammergpt_demo_1to7s.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2310.12128">DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-14">Abhay Zala, <strong>Han Lin</strong>, Jaemin Cho, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>COLM</strong> 2024</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2310.12128">Paper</a> <span aria-hidden="true">/</span> <a href="https://diagrammergpt.github.io/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/aszala/DiagrammerGPT">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="efficient" data-year="2023">
+      <div class="publication-media"><img src="images/ICML2023_front_image.png" alt="Efficient Graph Field Integrators Meet Point Clouds — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2302.00942">Efficient Graph Field Integrators Meet Point Clouds</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-15">Krzysztof Choromanski*, Arijit Sehanobish*, <strong>Han Lin*</strong>, Yunfan Zhao*, Eli Berger, Alvin Pan, Tetiana Parshakova, Tianyi Zhang, David Watkins, Valerii Likhosherstov, Somnath Basu Roy Chowdhury, Avinava Dubey, Deepali Jain, Tamas Sarlos, Snigdha Chaturvedi, Adrian Weller</div></div>
+        <p class="publication-venue"><strong>ICML</strong> 2023</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2302.00942">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/topographers/efficient_graph_algorithms">Code</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/39003799/efficient-graph-field-integrators-meet-point-clouds">Video</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="multimodal" data-year="2023">
+      <div class="publication-media"><img src="images/smkd_demo.png" alt="Supervised Masked Knowledge Distillation for Few-shot Transformers — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2303.15466">Supervised Masked Knowledge Distillation for Few-shot Transformers</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-16"><strong>Han Lin*</strong>, Guangxing Han*, Jiawei Ma, Shiyuan Huang, Xudong Lin, Shih-Fu Chang</div></div>
+        <p class="publication-venue"><strong>CVPR</strong> 2023</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2303.15466">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/SMKD">Code</a> <span aria-hidden="true">/</span> <a href="https://www.dropbox.com/s/29n9gjgzbqjqqbk/SMKD.pdf?dl=0">Slides</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="embodied" data-year="2023">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="Active Tactile Exploration for 3D Object Recognition — video preview"><source src="videos/tandom3d_demo_4s.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2209.08772">Active Tactile Exploration for 3D Object Recognition</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-17">Jingxi Xu*, <strong>Han Lin*</strong>, Shuran Song, Matei Ciocarlie</div></div>
+        <p class="publication-venue"><strong>ICRA</strong> 2023</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2209.08772">Paper</a> <span aria-hidden="true">/</span> <a href="https://jxu.ai/tandem3d/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://www.youtube.com/watch?v=z_90xVf1-88">Video</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="efficient" data-year="2022">
+      <div class="publication-media"><img src="images/block_toeplitz_demo.png" alt="From Block-Toeplitz Matrices to Differential Equations on Graphs: Towards a General Theory for Scalable Masked Transformers — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="http://arxiv.org/abs/2107.07999">From Block-Toeplitz Matrices to Differential Equations on Graphs: Towards a General Theory for Scalable Masked Transformers</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-18">Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Tianyi Zhang, Arijit Sehanobish, Valerii Likhosherstov, Jack Parker-Holder, Tamas Sarlos, Adrian Weller, Thomas Weingarten</div></div>
+        <p class="publication-venue"><strong>ICML</strong> 2022</p>
+        <p class="publication-links"><a href="http://arxiv.org/abs/2107.07999">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/GKAT">Code</a> <span aria-hidden="true">/</span> <a href="https://icml.cc/media/PosterPDFs/ICML%202022/f231f2107df69eab0a3862d50018a9b2_mzhGQSV.png">Poster</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/38983809/from-blocktoeplitz-matrices-to-differential-equations-on-graphs-towards-a-general-theory-for-scalable-masked-transformers">Video</a></p>
+      </div>
+    </article>
+<article class="publication-card featured" data-tags="efficient" data-year="2022">
+      <div class="publication-media"><img src="images/HRF.png" alt="Hybrid Random Features — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2110.04367">Hybrid Random Features</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-19">Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Yuanzhe Ma*, Arijit Sehanobish*, Deepali Jain, Michael S Ryoo, Jake Varley, Andy Zeng, Valerii Likhosherstov, Dmitry Kalashnikov, Vikas Sindhwani, Adrian Weller</div></div>
+        <p class="publication-venue"><strong>ICLR</strong> 2022</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2110.04367">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/HRF_ICLR2022">Code</a> <span aria-hidden="true">/</span> <a href="https://iclr.cc/virtual/2022/poster/6410">Video</a> <span aria-hidden="true">/</span> <a href="https://iclr.cc/media/iclr-2022/Slides/6410.pdf">Slides</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="efficient" data-year="2020">
+      <div class="publication-media"><img src="images/OMC2.png" alt="Demystifying Orthogonal Monte Carlo and Beyond — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2005.13590">Demystifying Orthogonal Monte Carlo and Beyond</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-20"><strong>Han Lin*</strong>, Haoxian Chen*, Tianyi Zhang, Clement Laroche, Krzysztof Choromanski</div></div>
+        <p class="publication-venue"><strong>NeurIPS</strong> 2020</p>
+        <p class="publication-links"><a href="https://arxiv.org/abs/2005.13590">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/OMC">Code</a> <span aria-hidden="true">/</span> <a href="https://slideslive.com/38936089/demystifying-orthogonal-monte-carlo-and-beyond">Video</a></p>
+      </div>
+    </article></div>
+    </section>
+
+    <section id="preprints" class="page-section" aria-labelledby="preprints-heading">
+      <h2 id="preprints-heading">Preprints</h2>
+      <div class="publication-list"><article class="publication-card" data-tags="generation,multimodal" data-year="2025">
+      <div class="publication-media"><video autoplay loop muted playsinline preload="metadata" aria-label="Planning with Sketch-Guided Verification for Physics-Aware Video Generation — video preview"><source src="videos/verifier_method_website.mp4" type="video/mp4"></video></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2511.17450">Planning with Sketch-Guided Verification for Physics-Aware Video Generation</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-21">Yidong Huang, Zun Wang, <strong>Han Lin</strong>, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon, Yue Zhang, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>arXiv Preprint</strong>, 2025</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2511.17450">Paper</a> <span aria-hidden="true">/</span> <a href="https://sketchverify.github.io/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/h6kplus/SketchVerify">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="generation,multimodal" data-year="2025">
+      <div class="publication-media"><img src="images/videomsg_demo.png" alt="Training-Free Guidance in Text-to-Video Generation via Multimodal Planning and Structured Noise Initialization — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://arxiv.org/pdf/2504.08641">Training-Free Guidance in Text-to-Video Generation via Multimodal Planning and Structured Noise Initialization</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-22">Jialu Li*, Shoubin Yu*, <strong>Han Lin*</strong>, Jaemin Cho, Jaehong Yoon, Mohit Bansal</div></div>
+        <p class="publication-venue"><strong>arXiv Preprint</strong>, 2025</p>
+        <p class="publication-links"><a href="https://arxiv.org/pdf/2504.08641">Paper</a> <span aria-hidden="true">/</span> <a href="https://video-msg.github.io/">Project Page</a> <span aria-hidden="true">/</span> <a href="https://github.com/jialuli-luka/Video-MSG">Code</a></p>
+      </div>
+    </article>
+<article class="publication-card" data-tags="efficient" data-year="2021">
+      <div class="publication-media"><img src="images/GKAT.png" alt="Graph Kernel Attention Transformers — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-body">
+        <h3 class="paper-title"><a href="https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf">Graph Kernel Attention Transformers</a></h3>
+        <div class="publication-authors-shell"><div class="publication-authors" id="authors-23">Krzysztof Choromanski*, <strong>Han Lin*</strong>, Haoxian Chen*, Jack Parker-Holder</div></div>
+        <p class="publication-venue"><strong>arXiv Preprint</strong>, 2021</p>
+        <p class="publication-links"><a href="https://github.com/HL-hanlin/GKAT/blob/main/GKAT_16Jul2021.pdf">Paper</a> <span aria-hidden="true">/</span> <a href="https://github.com/HL-hanlin/GKAT">Code</a></p>
+      </div>
+    </article></div>
+    </section>
+
+    <section id="education" class="page-section" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="experience-list"><article class="experience-entry"><div class="institution-logo"><img src="images/unc_logo.png" alt="University of North Carolina at Chapel Hill logo" loading="lazy" decoding="async"></div><div class="experience-body"><h3>University of North Carolina at Chapel Hill</h3><div class="entry-details"><p>Aug 2023 - Exp. May 2028<br />Ph.D. in Computer Science</p><ul class="entry-bullets"><li><a href="https://murgelab.cs.unc.edu/">MURGe-Lab</a>, advised by <a href="https://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a></li></ul></div></div></article>
+<article class="experience-entry"><div class="institution-logo"><img src="images/columbia_logo.jpg" alt="Columbia University logo" loading="lazy" decoding="async"></div><div class="experience-body"><h3>Columbia University</h3><div class="entry-details"><p>2021 - 2023<br />M.S. in Computer Science (Machine Learning Track)</p><ul class="entry-bullets"><li><a href="https://www.ee.columbia.edu/ln/dvmm/">DVMM Lab</a>, advised by <a href="https://www.ee.columbia.edu/~sfchang/">Prof. Shih-Fu Chang</a><br /><a href="https://arxiv.org/abs/2303.15466">Supervised Masked Knowledge Distillation for Few-Shot Transformers</a>, <strong>CVPR</strong> 2023</li><li><a href="https://roam.me.columbia.edu/">ROAM Lab</a>, advised by <a href="https://www.me.columbia.edu/faculty/matei-ciocarlie">Prof. Matei Ciocarlie</a> and <a href="https://shurans.github.io/">Prof. Shuran Song</a><br /><a href="https://arxiv.org/abs/2209.08772">Active Tactile Exploration for 3D Object Recognition</a>, <strong>ICRA</strong> 2023</li></ul></div></div></article>
+<article class="experience-entry"><div class="institution-logo"><img src="images/columbia_logo.jpg" alt="Columbia University logo" loading="lazy" decoding="async"></div><div class="experience-body"><h3>Columbia University</h3><div class="entry-details"><p>2018 - 2020<br />M.S. in Financial Engineering</p></div></div></article>
+<article class="experience-entry"><div class="institution-logo"><img src="images/cufe_logo.webp" alt="Central University of Finance and Economics logo" loading="lazy" decoding="async"></div><div class="experience-body"><h3>Central University of Finance and Economics</h3><div class="entry-details"><p>2014 - 2018<br />B.S. in Financial Engineering</p></div></div></article></div>
+    </section>
+
+    <section id="experience" class="page-section" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <div class="experience-list"><article class="experience-entry"><div class="institution-logo"><img src="images/meta_logo.png" alt="Meta logo" loading="lazy" decoding="async"></div><div class="experience-body"><h3>Meta</h3><div class="entry-details"><div class="entry-block"><p>May 2026 - Dec 2026, Research Scientist Intern, DReaM Team, FAIR Lab</p><ul class="entry-bullets"><li>Ongoing Projects: Self-improvement and on-policy distillation for video generation</li></ul></div><div class="entry-block"><p>May 2025 - Dec 2025,
+Research Scientist Intern, <a href="https://ai.meta.com/research/movie-gen/">Movie Gen Team</a>, MSL</p><ul class="entry-bullets"><li><a href="https://arxiv.org/abs/2512.11464">Exploring MLLM-Diffusion Information Transfer with MetaCanvas</a>, <strong>NeurIPS</strong> 2026</li></ul></div><div class="entry-block"><p>May 2024 - Dec 2024,
+Research Scientist Intern, <a href="https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/">JEPA Team</a>, FAIR Lab</p><ul class="entry-bullets"><li><a href="https://arxiv.org/abs/2410.03478">Latent Prediction Architecture For Procedural Video Representation Learning</a>, <strong>ICLR</strong> 2025</li></ul></div></div></div></article>
+<article class="experience-entry"><div class="institution-logo"><img src="images/deepmind_logo.png" alt="Google DeepMind logo" loading="lazy" decoding="async"></div><div class="experience-body"><h3>Google DeepMind</h3><div class="entry-details"><p>2019 - 2024,
+Research Collaboration with <a href="https://research.google/people/krzysztofchoromanski/?&type=google">Prof. Krzysztof Choromanski</a></p><ul class="entry-bullets"><li><a href="https://arxiv.org/pdf/2406.15881v1">Fast Tree-Field Integrators</a>, <strong>NeurIPS</strong> 2024</li><li><a href="https://arxiv.org/abs/2302.00942">Efficient Graph Field Integrators Meet Point Clouds</a>, <strong>ICML</strong> 2023</li><li><a href="https://arxiv.org/abs/2107.07999">From Block-Toeplitz Matrices to Differential Equations on Graphs</a>, <strong>ICML</strong> 2022</li><li><a href="https://arxiv.org/abs/2110.04367">Hybrid Random Features</a>, <strong>ICLR</strong> 2022</li><li><a href="https://arxiv.org/abs/2005.13590">Demystifying Orthogonal Monte Carlo and Beyond</a>, <strong>NeurIPS</strong> 2020</li></ul></div></div></article></div>
+    </section>
+
+    <section id="service" class="page-section" aria-labelledby="service-heading">
+      <h2 id="service-heading">Professional Service</h2>
+      <ul class="service-list"><li><strong>Reviewer.</strong> NeurIPS 2022-2026, ICML 2022-2026, ICLR 2024-2025, CVPR 2025-2026, ICCV 2025, ECCV 2026, WACV 2026</li>
+<li><strong>Workshop Organizer.</strong> <a href="https://any2any-mllm.github.io/workshop-cvpr26/">CVPR Workshop On Any-to-Any Multimodal Learning</a>, 2026</li>
+<li><strong>Conference Volunteer.</strong> <a href="https://roboticsconference.org/2022/">Robotics: Science and Systems (RSS)</a>, 2022</li></ul>
+    </section>
+
+    <section id="teaching" class="page-section" aria-labelledby="teaching-heading">
+      <h2 id="teaching-heading">Teaching Assistant</h2>
+      <ul class="teaching-list"><li><a href="http://www.cs.columbia.edu/~mihalis/cs4231/syllabus.html">COMS 4231 Analysis of Algorithms</a>, Columbia University, 2022 Fall</li>
+<li><a href="https://drive.google.com/drive/folders/1WBraYFj2umBYm4yf057BqIJKtwP5KAP5">COMS 4732 Computer Vision 2: Learning</a>, Columbia University, 2022 Spring</li>
+<li><a href="https://www.cs.columbia.edu/~djhsu/coms4771-f25/">COMS 4721 Machine Learning for Data Science</a>, Columbia University, 2022 Spring</li>
+<li><a href="https://www.coursicle.com/columbia/courses/QMSS/G5073/">QMSS 5073 Machine Learning for Social Science</a>, Columbia University, 2021 Fall</li>
+<li><a href="https://www.coursicle.com/columbia/courses/IEOR/E4007/">IEOR 4007 Optimization Models & Methods for FE</a>, Columbia University, 2019 Fall</li>
+<li><a href="https://www.coursicle.com/columbia/courses/IEOR/E4418/">IEOR 4418 Transportation Analytics & Logistics</a>, Columbia University, 2019 Spring</li></ul>
+    </section>
+  </main>
+
+  <footer class="mountain-footer" aria-label="Contact and credits">
+    <div class="mountain-stage">
+      <picture>
+        <source type="image/webp" srcset="images/worlds-in-motion-960.webp 960w, images/worlds-in-motion-1440.webp 1440w, images/worlds-in-motion.webp 1672w" sizes="100vw">
+        <img class="mountain-img" src="images/worlds-in-motion.jpg" alt="A winding river through a misty mountain valley at sunrise" loading="lazy" decoding="async">
+      </picture>
+      <div class="mountain-content">
+        <h2>Worlds in Motion</h2>
+        <p class="mountain-sub">Learning to generate, control, and understand dynamic worlds.</p>
+        <p class="mountain-footnote"><span>Han Lin · University of North Carolina at Chapel Hill</span><span class="mountain-updated">Last updated: September 2026.</span><span class="mountain-template">Adapted from <a href="https://github.com/w-r-s/academic-homepage-template">w-r-s / academic-homepage-template</a>.</span></p>
+      </div>
+    </div>
+  </footer>
+  <button type="button" id="backToTop" aria-label="Back to top" title="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg></button>
+</body>
+</html>

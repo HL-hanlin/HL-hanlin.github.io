@@ -123,7 +123,9 @@ li { margin: 4px 0; }
 .publication-card.featured { background: #ffffe0; }
 .publication-media { min-width: 0; position: relative; }
 .publication-media img, .publication-media video { display: block; width: 100%; height: auto; max-height: 166px; object-fit: contain; border-radius: 3px; }
-.video-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); min-height: 44px; padding: 9px 14px; border: 1px solid rgba(255,255,255,0.8); border-radius: 6px; color: #fff; background: rgba(22,29,32,0.9); font-size: 13px; white-space: nowrap; }
+.publication-media .video-poster { position: absolute; inset: 0; height: 100%; pointer-events: none; }
+.publication-media video.has-played ~ .video-poster { visibility: hidden; }
+.video-play { position: absolute; z-index: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); min-height: 44px; padding: 9px 14px; border: 1px solid rgba(255,255,255,0.8); border-radius: 6px; color: #fff; background: rgba(22,29,32,0.9); font-size: 13px; white-space: nowrap; }
 .video-play:hover { background: #161d20; }
 .publication-body { min-width: 0; }
 .paper-title { margin: 0 0 5px; font-size: 14px; line-height: 1.45; font-weight: 700; }
@@ -148,7 +150,7 @@ li { margin: 4px 0; }
 .experience-list { display: grid; gap: 22px; }
 .experience-entry { display: grid; grid-template-columns: 75px minmax(0, 1fr); align-items: center; gap: 22px; }
 .institution-logo { width: 75px; text-align: center; }
-.institution-logo img { display: block; width: auto; max-width: 75px; max-height: 66px; margin: 0 auto; object-fit: contain; }
+.institution-logo img { display: block; width: auto; height: auto; max-width: 75px; max-height: 66px; margin: 0 auto; object-fit: contain; }
 .experience-body h3 { margin: 0 0 3px; font-size: 14px; line-height: 1.5; }
 .entry-details { color: #4e4e4e; }
 .entry-details p { margin: 0; }

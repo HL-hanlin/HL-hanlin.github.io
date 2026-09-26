@@ -103,6 +103,12 @@
     video.muted = true;
     video.playsInline = true;
     video.preload = 'auto';
+    // No media URL is exposed to the browser until the preview is visible.
+    // Keep activation synchronous so Safari can use a real play gesture.
+    if (!video.getAttribute('src') && video.dataset.src) {
+      video.src = video.dataset.src;
+      video.load();
+    }
     const request = {};
     pendingPlays.set(video, request);
     const onFailure = error => {
@@ -151,6 +157,7 @@
       video.addEventListener('play', () => { if (!shouldPlay(video)) video.pause(); });
       video.addEventListener('playing', () => {
         if (!shouldPlay(video)) { video.pause(); return; }
+        video.classList.add('has-played');
         blockedVideos.delete(video);
         button.hidden = true;
         updateMotionToggle();

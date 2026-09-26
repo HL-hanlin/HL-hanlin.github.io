@@ -4,12 +4,12 @@
 
 ## 本次更新
 
-- 头像替换为提供的新照片，直接保留原图。
+- 头像替换为提供的新照片；保留原图备份，网页使用响应式 WebP 缩略图。
 - 页面标题为 Han Lin，站点名称为 Han Lin - Home Page；首页提供 WebSite 结构化数据、统一分享标题以及 🎬 网站图标。搜索结果需等待 Google 重新抓取，最终展示由搜索引擎决定。
 - MetaCanvas、PhyMotion 均更新为 **NeurIPS 2026**，并从 Preprints 移入 Publications。
 - News 新增 2026-05 加入 Meta FAIR DReaM 团队开展暑期实习的消息。
 - Publications 和 Preprints 默认显示完整作者名单，无折叠箭头。
-- 视频预览进入屏幕时静音、循环、行内自动播放，离屏或切换后台后暂停；兼容 Safari 原生自动播放，媒体就绪及返回页面时恢复检查。浏览器限制播放时可通过触摸后重试或单条预览按钮播放，并保留全局暂停与减少动态效果偏好。
+- 视频预览仅在进入屏幕时加载，然后静音、循环、行内自动播放；未加载时显示 WebP 首帧，离屏或切换后台后暂停；兼容 Safari 原生自动播放，媒体就绪及返回页面时恢复检查。浏览器限制播放时可通过触摸后重试或单条预览按钮播放，并保留全局暂停与减少动态效果偏好。
 - Publications 按指定名单高亮 11 篇论文，Preprints 均不高亮；PhyMotion 同时归入 Generation 和 Embodied AI。
 - Reviewer 列表新增 WACV 2026。
 - Education 和 Experience 中的实验室、导师及项目改为项目符号列表，保留学位、日期和职位的层次。
@@ -49,18 +49,19 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | 文件 | 用途 |
 | --- | --- |
 | `index.html` | 简介、News、论文、教育、工作经历及其他内容 |
-| `stylesheet.css` | 指定模板的原始样式 |
+| `stylesheet.css` | 已移除废弃组件的模板样式及本地字体声明 |
 | `custom.css` | 内容适配、响应式布局及无障碍样式 |
 | `site.js` | 论文分类筛选、News 折叠、视频控制与返回顶部 |
-| `images/profile.png` | 当前头像 |
+| `images/profile.png` | 原始头像备份；网页从 `images/optimized/profile-*.webp` 选择合适尺寸 |
 | `favicon.png`、`favicon.ico`、`apple-touch-icon.png` | 🎬 网站图标及移动端图标 |
 | `images/worlds-in-motion*` | 页脚河谷背景的 WebP 和 JPEG 版本 |
-| `images/`、`videos/` | 论文和机构媒体资源 |
+| `images/optimized/`、`images/video-posters/`、`videos/optimized/` | 实际加载的压缩媒体和首帧；原资源保留在上级目录 |
+| `fonts/` | 本地 Lato WOFF2 字体及 SIL Open Font License |
 | `files/Han_Lin_Resume.pdf` | 最新上传的 CV，按原 PDF 文件替换 |
 
 论文作者列表中的 `*` 保持原意：共同贡献。分类按钮仅筛选 Publications，Preprints 保持单独列出且不高亮。浅黄色卡片对应指定的 11 篇论文：MetaCanvas、AnchorWeave、V-Co、Bifrost-1、VEDiT、CTRL-Adapter、VideoDirectorGPT、SMKD、Tandem3D、Hybrid Random Features、From Block-Toeplitz。
 
-页面内容直接包含在 HTML 中；关闭 JavaScript 时所有论文、作者和 News 仍可阅读。CSS 和 JavaScript 使用内容版本号更新浏览器缓存。字体使用模板原有的 Google Fonts 地址，离线时会回退到本地无衬线字体。
+页面内容直接包含在 HTML 中；关闭 JavaScript 时所有论文、作者和 News 仍可阅读。CSS 和 JavaScript 使用内容版本号更新浏览器缓存。字体在本站托管，并使用 `font-display: swap` 让文字立即使用后备字体显示，再切换到 Lato。
 
 `/about/`、`/about.html`、`/publications/`、`/cv/`、`/resume/` 提供兼容跳转。
 
@@ -81,4 +82,15 @@ python3 -m http.server 8000 --bind 127.0.0.1
 - 论文分类筛选、视频暂停/恢复、返回顶部已在浏览器操作验证；无控制台错误。
 - 10 段视频均加载成功，未发现失效的本地图片或资源引用。
 - 移除页面脚本后，全部 24 篇论文、21 条 News 和完整作者列表仍可阅读。
-- 原有媒体/附件与上传头像按原文件复制；未修改 CV 或人像内容。
+- 原有媒体/附件与上传头像保留，网页使用按展示尺寸生成的压缩副本；未修改 CV、画面内容或视频播放速度。
+
+## 加载性能优化（2026-09-26）
+
+- 20张静态图片按每张最大变体计：13,800,842 → 735,954字节，减少94.7%；`srcset` 让浏览器根据显示尺寸与像素密度选择。
+- 10段视频：23,277,019 → 4,371,404字节，减少81.2%；保留 H.264/yuv420p/无声，统一 faststart，另有384,230字节WebP首帧。
+- 首页顶部不绑定离屏视频的媒体URL，避免提前下载；只对当前可见、未被筛选隐藏、未暂停的预览激活下载。
+- 图片与视频指定尺寸以预留布局，正文内容和链接保持一致。
+- 模板CSS清除废弃组件，Lato字体改为同站托管。未引入框架、动画库或第三方统计脚本。
+- 27项播放控制器回归测试通过；浏览器桌面1440×1000与手机375×812检查通过。手机尺寸测试不等同于真实iPhone硬件测试。
+
+以上为文件体积及加载行为对比，不代表同等比例的实际加载时间提升。浏览器缓存、网络和设备会影响访问速度。保留在仓库但没有被页面引用的旧媒体不会自动下载。

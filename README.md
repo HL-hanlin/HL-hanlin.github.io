@@ -5,6 +5,7 @@
 ## 本次更新
 
 - 头像替换为提供的新照片，直接保留原图。
+- 页面标题为 Han Lin，站点名称为 Han Lin - Home Page；首页提供 WebSite 结构化数据、统一分享标题以及 🎬 网站图标。搜索结果需等待 Google 重新抓取，最终展示由搜索引擎决定。
 - MetaCanvas、PhyMotion 均更新为 **NeurIPS 2026**，并从 Preprints 移入 Publications。
 - News 新增 2026-05 加入 Meta FAIR DReaM 团队开展暑期实习的消息。
 - Publications 和 Preprints 默认显示完整作者名单，无折叠箭头。
@@ -52,6 +53,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | `custom.css` | 内容适配、响应式布局及无障碍样式 |
 | `site.js` | 论文分类筛选、News 折叠、视频控制与返回顶部 |
 | `images/profile.png` | 当前头像 |
+| `favicon.png`、`favicon.ico`、`apple-touch-icon.png` | 🎬 网站图标及移动端图标 |
 | `images/worlds-in-motion*` | 页脚河谷背景的 WebP 和 JPEG 版本 |
 | `images/`、`videos/` | 论文和机构媒体资源 |
 | `files/Han_Lin_Resume.pdf` | 最新上传的 CV，按原 PDF 文件替换 |

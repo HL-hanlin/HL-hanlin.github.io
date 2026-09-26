@@ -8,6 +8,7 @@
 - MetaCanvas、PhyMotion 均更新为 **NeurIPS 2026**，并从 Preprints 移入 Publications。
 - News 新增 2026-05 加入 Meta FAIR DReaM 团队开展暑期实习的消息。
 - Publications 和 Preprints 默认显示完整作者名单，无折叠箭头。
+- 视频预览进入屏幕时静音、循环、行内自动播放，离屏或切换后台后暂停；兼容 Safari 原生自动播放，媒体就绪及返回页面时恢复检查。浏览器限制播放时可通过触摸后重试或单条预览按钮播放，并保留全局暂停与减少动态效果偏好。
 - Publications 按指定名单高亮 11 篇论文，Preprints 均不高亮；PhyMotion 同时归入 Generation 和 Embodied AI。
 - Reviewer 列表新增 WACV 2026。
 - Education 和 Experience 中的实验室、导师及项目改为项目符号列表，保留学位、日期和职位的层次。
@@ -57,7 +58,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 论文作者列表中的 `*` 保持原意：共同贡献。分类按钮仅筛选 Publications，Preprints 保持单独列出且不高亮。浅黄色卡片对应指定的 11 篇论文：MetaCanvas、AnchorWeave、V-Co、Bifrost-1、VEDiT、CTRL-Adapter、VideoDirectorGPT、SMKD、Tandem3D、Hybrid Random Features、From Block-Toeplitz。
 
-页面内容直接包含在 HTML 中；关闭 JavaScript 时所有论文、作者和 News 仍可阅读。字体使用模板原有的 Google Fonts 地址，离线时会回退到本地无衬线字体。
+页面内容直接包含在 HTML 中；关闭 JavaScript 时所有论文、作者和 News 仍可阅读。CSS 和 JavaScript 使用内容版本号更新浏览器缓存。字体使用模板原有的 Google Fonts 地址，离线时会回退到本地无衬线字体。
 
 `/about/`、`/about.html`、`/publications/`、`/cv/`、`/resume/` 提供兼容跳转。
 

@@ -67,56 +67,127 @@
 
   const videos = [...document.querySelectorAll('.publication-media video')];
   const motionToggle = document.getElementById('motionToggle');
-  let previewsPaused = reducedMotion.matches;
-  const videoVisibility = new WeakMap();
-  const updateVideos = () => {
-    videos.forEach(video => {
-      const card = video.closest('.publication-card');
-      const shouldPlay = !previewsPaused && !document.hidden && !card?.hidden && videoVisibility.get(video);
-      if (shouldPlay) {
-        const play = video.play();
-        if (play && typeof play.catch === 'function') play.catch(() => {});
-      } else video.pause();
-    });
-    if (motionToggle) {
-      motionToggle.setAttribute('aria-pressed', String(previewsPaused));
-      motionToggle.textContent = previewsPaused ? 'Play video previews' : 'Pause video previews';
-      motionToggle.setAttribute('aria-label', previewsPaused ? 'Play all publication video previews' : 'Pause all publication video previews');
+  let userPaused = null;
+  const previewsPaused = () => userPaused ?? reducedMotion.matches;
+  const pendingPlays = new WeakMap();
+  const blockedVideos = new Set();
+  const playButtons = new WeakMap();
+  const shouldPlay = video => {
+    if (previewsPaused() || document.hidden || video.closest('.publication-card')?.hidden) return false;
+    const rect = video.getBoundingClientRect();
+    return rect.width > 0 && rect.height > 0 && rect.bottom > 0 && rect.top < window.innerHeight
+      && rect.right > 0 && rect.left < window.innerWidth;
+  };
+  const needsPlayGesture = () => videos.some(video => shouldPlay(video) && blockedVideos.has(video));
+  const updateMotionToggle = () => {
+    if (!motionToggle) return;
+    const showPlay = previewsPaused() || needsPlayGesture();
+    motionToggle.setAttribute('aria-pressed', String(previewsPaused()));
+    motionToggle.textContent = showPlay ? 'Play video previews' : 'Pause video previews';
+    motionToggle.setAttribute('aria-label', showPlay ? 'Play all publication video previews' : 'Pause all publication video previews');
+  };
+  const syncVideo = (video, fromGesture = false) => {
+    const eligible = shouldPlay(video);
+    // Keep Safari's native autoplay path enabled only while this preview is eligible.
+    video.autoplay = eligible;
+    const button = playButtons.get(video);
+    button.hidden = !eligible || !blockedVideos.has(video);
+    if (!eligible) {
+      pendingPlays.delete(video);
+      video.pause();
+      return;
     }
+    if (!video.paused || (pendingPlays.has(video) && !fromGesture)) return;
+    if (blockedVideos.has(video) && !fromGesture) return;
+    video.defaultMuted = true;
+    video.muted = true;
+    video.playsInline = true;
+    video.preload = 'auto';
+    const request = {};
+    pendingPlays.set(video, request);
+    const onFailure = error => {
+      if (pendingPlays.get(video) !== request) return;
+      pendingPlays.delete(video);
+      if (error.name === 'NotAllowedError' && shouldPlay(video)) {
+        blockedVideos.add(video);
+        button.hidden = false;
+      }
+      // AbortError is expected when scrolling away or pausing a pending play request.
+      updateMotionToggle();
+    };
+    try {
+      const play = video.play();
+      if (play && typeof play.then === 'function') {
+        play.then(() => {
+          if (pendingPlays.get(video) !== request) return;
+          pendingPlays.delete(video);
+          if (!shouldPlay(video)) { video.pause(); return; }
+          blockedVideos.delete(video);
+          button.hidden = true;
+          updateMotionToggle();
+        }, onFailure);
+      } else pendingPlays.delete(video);
+    } catch (error) { onFailure(error); }
+  };
+  const updateVideos = () => {
+    videos.forEach(video => syncVideo(video));
+    updateMotionToggle();
   };
   if (videos.length) {
     videos.forEach(video => {
-      video.removeAttribute('autoplay');
+      video.defaultMuted = true;
       video.muted = true;
-      const rect = video.getBoundingClientRect();
-      videoVisibility.set(video, rect.bottom > 0 && rect.top < window.innerHeight);
+      video.playsInline = true;
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'video-play';
+      button.hidden = true;
+      button.textContent = 'Play preview';
+      button.setAttribute('aria-label', `Play ${video.getAttribute('aria-label') || 'video preview'}`);
+      video.after(button);
+      playButtons.set(video, button);
+      button.addEventListener('click', () => syncVideo(video, true));
+      ['loadeddata', 'canplay'].forEach(event => video.addEventListener(event, () => syncVideo(video)));
+      video.addEventListener('play', () => { if (!shouldPlay(video)) video.pause(); });
+      video.addEventListener('playing', () => {
+        if (!shouldPlay(video)) { video.pause(); return; }
+        blockedVideos.delete(video);
+        button.hidden = true;
+        updateMotionToggle();
+      });
     });
     if ('IntersectionObserver' in window) {
-      const videoObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => videoVisibility.set(entry.target, entry.isIntersecting));
-        updateVideos();
-      }, { threshold: 0.05 });
+      const videoObserver = new IntersectionObserver(updateVideos, { threshold: [0, 0.05] });
       videos.forEach(video => videoObserver.observe(video));
     } else {
-      const trackVideos = () => {
-        videos.forEach(video => {
-          const rect = video.getBoundingClientRect();
-          videoVisibility.set(video, rect.bottom > 0 && rect.top < window.innerHeight);
-        });
-        updateVideos();
-      };
-      window.addEventListener('scroll', trackVideos, { passive: true });
-      window.addEventListener('resize', trackVideos, { passive: true });
+      window.addEventListener('scroll', updateVideos, { passive: true });
+      window.addEventListener('resize', updateVideos, { passive: true });
     }
     if (motionToggle) {
       motionToggle.hidden = false;
       motionToggle.classList.add('visible');
-      motionToggle.addEventListener('click', () => { previewsPaused = !previewsPaused; updateVideos(); });
+      motionToggle.addEventListener('click', () => {
+        userPaused = previewsPaused() || needsPlayGesture() ? false : true;
+        videos.forEach(video => syncVideo(video, true));
+        updateMotionToggle();
+      });
     }
-    document.addEventListener('visibilitychange', updateVideos);
-    const onMotionPreferenceChange = event => { previewsPaused = event.matches; updateVideos(); };
-    if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', onMotionPreferenceChange);
-    else if (reducedMotion.addListener) reducedMotion.addListener(onMotionPreferenceChange);
+    const retryFromGesture = event => {
+      if (!event.isTrusted || event.target.closest?.('#motionToggle, .video-play, video')) return;
+      // Call play synchronously during a real gesture; never override the pause preference.
+      videos.forEach(video => { if (blockedVideos.has(video) && shouldPlay(video)) syncVideo(video, true); });
+    };
+    ['touchend', 'click', 'keydown'].forEach(event => {
+      document.addEventListener(event, retryFromGesture, { passive: true });
+    });
+    const restoreVideos = () => {
+      if (!document.hidden) blockedVideos.clear();
+      updateVideos();
+    };
+    document.addEventListener('visibilitychange', restoreVideos);
+    window.addEventListener('pageshow', restoreVideos);
+    if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', updateVideos);
+    else if (reducedMotion.addListener) reducedMotion.addListener(updateVideos);
     updateVideos();
   }
 

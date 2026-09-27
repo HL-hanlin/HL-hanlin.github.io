@@ -198,6 +198,113 @@
     updateVideos();
   }
 
+  // Keep the decorative footer video separate from publication preview controls.
+  const backgroundVideo = document.querySelector('.mountain-video');
+  const backgroundToggle = document.getElementById('backgroundMotionToggle');
+  if (backgroundVideo && backgroundToggle) {
+    let backgroundPaused = null;
+    let backgroundVisible = false;
+    let backgroundBlocked = false;
+    let backgroundFailed = false;
+    let backgroundRequest = null;
+    const backgroundShouldPlay = () => backgroundVisible && !document.hidden && !backgroundFailed
+      && !(backgroundPaused ?? (reducedMotion.matches || navigator.connection?.saveData));
+    const updateBackgroundToggle = () => {
+      backgroundToggle.hidden = backgroundFailed;
+      const paused = !backgroundShouldPlay() || backgroundBlocked
+        || (backgroundVideo.paused && !backgroundRequest);
+      backgroundToggle.textContent = paused ? 'Play' : 'Pause';
+      backgroundToggle.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} background video`);
+    };
+    const syncBackgroundVideo = (fromGesture = false) => {
+      const eligible = backgroundShouldPlay();
+      backgroundVideo.autoplay = eligible;
+      updateBackgroundToggle();
+      if (!eligible) {
+        backgroundRequest = null;
+        backgroundVideo.pause();
+        return;
+      }
+      if (!backgroundVideo.paused || (backgroundRequest && !fromGesture)
+          || (backgroundBlocked && !fromGesture)) return;
+      backgroundVideo.defaultMuted = true;
+      backgroundVideo.muted = true;
+      backgroundVideo.playsInline = true;
+      if (!backgroundVideo.getAttribute('src')) {
+        const mobile = window.matchMedia('(max-width: 680px)').matches;
+        backgroundVideo.preload = 'auto';
+        backgroundVideo.src = mobile ? backgroundVideo.dataset.mobileSrc : backgroundVideo.dataset.src;
+        backgroundVideo.load();
+      }
+      const request = {};
+      backgroundRequest = request;
+      updateBackgroundToggle();
+      const onFailure = () => {
+        if (backgroundRequest !== request) return;
+        backgroundRequest = null;
+        if (backgroundShouldPlay()) backgroundBlocked = true;
+        updateBackgroundToggle();
+      };
+      try {
+        const play = backgroundVideo.play();
+        if (play && typeof play.then === 'function') {
+          play.then(() => {
+            if (backgroundRequest !== request) return;
+            backgroundRequest = null;
+            if (!backgroundShouldPlay()) { backgroundVideo.pause(); return; }
+            backgroundBlocked = false;
+            updateBackgroundToggle();
+          }, onFailure);
+        } else backgroundRequest = null;
+      } catch (error) { onFailure(error); }
+    };
+    backgroundVideo.addEventListener('playing', () => {
+      if (!backgroundShouldPlay()) { backgroundVideo.pause(); return; }
+      backgroundVideo.classList.add('has-played');
+      backgroundBlocked = false;
+      updateBackgroundToggle();
+    });
+    backgroundVideo.addEventListener('play', () => {
+      if (!backgroundShouldPlay()) backgroundVideo.pause();
+    });
+    backgroundVideo.addEventListener('pause', updateBackgroundToggle);
+    ['loadeddata', 'canplay'].forEach(type => backgroundVideo.addEventListener(type, () => syncBackgroundVideo()));
+    backgroundVideo.addEventListener('error', () => {
+      backgroundFailed = true;
+      backgroundVideo.classList.remove('has-played');
+      syncBackgroundVideo();
+    });
+    backgroundToggle.addEventListener('click', () => {
+      backgroundPaused = backgroundShouldPlay() && !backgroundBlocked
+        && (!backgroundVideo.paused || Boolean(backgroundRequest));
+      backgroundBlocked = false;
+      syncBackgroundVideo(true);
+    });
+    const measureBackground = () => {
+      const rect = backgroundVideo.getBoundingClientRect();
+      backgroundVisible = rect.width > 0 && rect.height > 0 && rect.bottom > 0
+        && rect.top < window.innerHeight && rect.right > 0 && rect.left < window.innerWidth;
+      syncBackgroundVideo();
+    };
+    if ('IntersectionObserver' in window) {
+      const backgroundObserver = new IntersectionObserver(entries => {
+        backgroundVisible = entries[0].isIntersecting;
+        syncBackgroundVideo();
+      }, { threshold: [0, 0.05] });
+      backgroundObserver.observe(backgroundVideo);
+    } else window.addEventListener('scroll', measureBackground, { passive: true });
+    window.addEventListener('resize', measureBackground, { passive: true });
+    document.addEventListener('visibilitychange', measureBackground);
+    window.addEventListener('pageshow', measureBackground);
+    if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', measureBackground);
+    else if (reducedMotion.addListener) reducedMotion.addListener(measureBackground);
+    ['touchend', 'click', 'keydown'].forEach(type => document.addEventListener(type, event => {
+      if (event.isTrusted && !event.target.closest?.('#backgroundMotionToggle')
+          && backgroundBlocked && backgroundShouldPlay()) syncBackgroundVideo(true);
+    }, { passive: true }));
+    measureBackground();
+  }
+
   const backToTop = document.getElementById('backToTop');
   const sectionNav = document.querySelector('.section-drip-nav');
   const navLinks = [...document.querySelectorAll('.section-drip-nav a[href^="#"]')];

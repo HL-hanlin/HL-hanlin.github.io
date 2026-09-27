@@ -30,8 +30,8 @@
   "url": "https://hl-hanlin.github.io/"
 }</script>
   <link rel="stylesheet" href="stylesheet.css?v=04d768637561">
-  <link rel="stylesheet" href="custom.css?v=9a20bf5a2134">
-  <script src="site.js?v=6cd80f5da76f" defer></script>
+  <link rel="stylesheet" href="custom.css?v=e58e6b633db4">
+  <script src="site.js?v=66c7134ee5f1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#publications">Skip to publications</a>
@@ -367,17 +367,19 @@ Research Collaboration with <a href="https://research.google/people/krzysztofcho
     </section>
   </main>
 
-  <footer class="mountain-footer" aria-label="Contact and credits">
+  <footer id="worlds-in-motion" class="mountain-footer" aria-label="Contact and credits">
     <div class="mountain-stage">
       <picture>
         <source type="image/webp" srcset="images/worlds-in-motion-960.webp 960w, images/worlds-in-motion-1440.webp 1440w, images/worlds-in-motion.webp 1672w" sizes="100vw">
         <img class="mountain-img" src="images/worlds-in-motion.jpg" width="1672" height="941" alt="A winding river through a misty mountain valley at sunrise" loading="lazy" decoding="async">
       </picture>
+      <video class="mountain-video" data-src="videos/worlds-in-motion.mp4" data-mobile-src="videos/worlds-in-motion-mobile.mp4" width="1600" height="900" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
       <div class="mountain-content">
         <h2>Worlds in Motion</h2>
         <p class="mountain-sub">Learning to generate, control, and understand dynamic worlds.</p>
         <p class="mountain-footnote"><span class="mountain-updated">Last updated: September 2026.</span><span class="mountain-template">Adapted from <a href="https://github.com/w-r-s/academic-homepage-template">w-r-s / academic-homepage-template</a>.</span></p>
       </div>
+      <button type="button" id="backgroundMotionToggle" class="background-motion-toggle" aria-label="Pause background video" hidden>Pause</button>
     </div>
   </footer>
   <button type="button" id="backToTop" aria-label="Back to top" title="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg></button>

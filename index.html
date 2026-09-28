@@ -30,8 +30,8 @@
   "url": "https://hl-hanlin.github.io/"
 }</script>
   <link rel="stylesheet" href="stylesheet.css?v=04d768637561">
-  <link rel="stylesheet" href="custom.css?v=e58e6b633db4">
-  <script src="site.js?v=66c7134ee5f1" defer></script>
+  <link rel="stylesheet" href="custom.css?v=f8dd50f64f52">
+  <script src="site.js?v=b7670e9b005d" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#publications">Skip to publications</a>
@@ -103,7 +103,7 @@
     <section id="publications" class="page-section" aria-labelledby="publications-heading">
       <h2 id="publications-heading">Publications</h2>
       <p class="publication-note">* Equal contribution. Selected papers are <span class="highlight">highlighted</span>. See also <a href="https://scholar.google.com/citations?user=Z9s5gHEAAAAJ&amp;hl=en">Google Scholar</a>.</p>
-      <div class="publication-tools"><button type="button" id="motionToggle" aria-pressed="false" hidden>Pause video previews</button></div>
+      <div class="publication-tools"><button type="button" id="motionToggle" aria-pressed="false" hidden>Pause previews</button></div>
       <div id="tagFilter" class="tag-filter" role="group" aria-label="Filter publications by research area"><button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
 <button type="button" class="tag-btn" data-tag="generation" aria-pressed="false">Generation</button>
 <button type="button" class="tag-btn" data-tag="multimodal" aria-pressed="false">Multimodal</button>
@@ -139,7 +139,29 @@
       </div>
     </article>
 <article class="publication-card featured" data-tags="generation,multimodal" data-year="2026">
-      <div class="publication-media"><img src="images/optimized/vco-demo-340.webp" srcset="images/optimized/vco-demo-340.webp 340w, images/optimized/vco-demo-680.webp 680w" sizes="(max-width: 560px) calc(100vw - 72px), (max-width: 680px) 145px, 166px" width="2734" height="1384" alt="V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-media"><svg class="publication-motion publication-mechanism" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 190" width="280" height="190" role="img" aria-label="V-Co method illustration: pixel and semantic-feature streams exchange information through joint attention while co-denoising. The grids are schematic, not recorded model outputs.">
+  <rect width="280" height="190" rx="7" fill="#edf3ef"/>
+  <g class="vco-label"><text x="23" y="31">Pixels</text><text x="164" y="31">Features</text></g>
+  <rect x="14" y="44" width="108" height="119" rx="12" fill="#dce7ee"/>
+  <rect x="158" y="44" width="108" height="119" rx="12" fill="#dbece3"/>
+  <g fill="#377fa4">
+    <g class="motion-piece vco-latent"><path d="M39 58h7q3 0 3 3v7q0 3-3 3h-7q-3 0-3-3v-7q0-3 3-3ZM56 75h7q3 0 3 3v7q0 3-3 3h-7q-3 0-3-3v-7q0-3 3-3ZM73 92h7q3 0 3 3v7q0 3-3 3h-7q-3 0-3-3v-7q0-3 3-3ZM90 109h7q3 0 3 3v7q0 3-3 3h-7q-3 0-3-3v-7q0-3 3-3Z"/></g>
+    <g class="motion-piece vco-latent vco-delay-1"><rect x="53" y="58" width="13" height="13" rx="3"/><rect x="70" y="75" width="13" height="13" rx="3"/><rect x="87" y="92" width="13" height="13" rx="3"/><rect x="36" y="109" width="13" height="13" rx="3"/></g>
+    <g class="motion-piece vco-latent vco-delay-2"><rect x="70" y="58" width="13" height="13" rx="3"/><rect x="87" y="75" width="13" height="13" rx="3"/><rect x="36" y="92" width="13" height="13" rx="3"/><rect x="53" y="109" width="13" height="13" rx="3"/></g>
+    <g class="motion-piece vco-latent vco-delay-3"><rect x="87" y="58" width="13" height="13" rx="3"/><rect x="36" y="75" width="13" height="13" rx="3"/><rect x="53" y="92" width="13" height="13" rx="3"/><rect x="70" y="109" width="13" height="13" rx="3"/></g>
+  </g>
+  <g fill="#3b9581">
+    <g class="motion-piece vco-latent vco-delay-1"><rect x="180" y="58" width="13" height="13" rx="3"/><rect x="197" y="75" width="13" height="13" rx="3"/><rect x="214" y="92" width="13" height="13" rx="3"/><rect x="231" y="109" width="13" height="13" rx="3"/></g>
+    <g class="motion-piece vco-latent vco-delay-2"><rect x="197" y="58" width="13" height="13" rx="3"/><rect x="214" y="75" width="13" height="13" rx="3"/><rect x="231" y="92" width="13" height="13" rx="3"/><rect x="180" y="109" width="13" height="13" rx="3"/></g>
+    <g class="motion-piece vco-latent vco-delay-3"><rect x="214" y="58" width="13" height="13" rx="3"/><rect x="231" y="75" width="13" height="13" rx="3"/><rect x="180" y="92" width="13" height="13" rx="3"/><rect x="197" y="109" width="13" height="13" rx="3"/></g>
+    <g class="motion-piece vco-latent"><rect x="231" y="58" width="13" height="13" rx="3"/><rect x="180" y="75" width="13" height="13" rx="3"/><rect x="197" y="92" width="13" height="13" rx="3"/><rect x="214" y="109" width="13" height="13" rx="3"/></g>
+  </g>
+  <path class="motion-piece vco-flow" d="M110 75H170M170 105H110M110 135H170" fill="none" stroke="#bc8151" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect class="motion-piece vco-cross" x="125" y="62" width="30" height="86" rx="8" fill="#f5dec6"/>
+  <path d="M133 82L146 94 133 106M146 109L133 121 146 133" stroke="#a06433" fill="none" stroke-width="3"/>
+  <text class="vco-caption" x="140" y="185" text-anchor="middle">Joint attention</text>
+</svg>
+</div>
       <div class="publication-body">
         <h3 class="paper-title"><a href="https://arxiv.org/abs/2603.16792">V-Co: A Closer Look at Visual Representation Alignment via Co-Denoising</a></h3>
         <div class="publication-authors-shell"><div class="publication-authors" id="authors-3"><strong>Han Lin</strong>, Xichen Pan, Zun Wang, Yue Zhang, Chu Wang, Jaemin Cho, Mohit Bansal</div></div>
@@ -175,7 +197,7 @@
       </div>
     </article>
 <article class="publication-card featured" data-tags="generation,multimodal" data-year="2025">
-      <div class="publication-media"><img src="images/optimized/bifrost1-demo-340.webp" srcset="images/optimized/bifrost1-demo-340.webp 340w, images/optimized/bifrost1-demo-680.webp 680w" sizes="(max-width: 560px) calc(100vw - 72px), (max-width: 680px) 145px, 166px" width="1159" height="703" alt="Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents — overview" loading="lazy" decoding="async"></div>
+      <div class="publication-media"><div class="publication-motion publication-gallery" role="img" aria-label="Bifrost-1 published image examples: a neon lion, an iridescent rose under a glass dome, a mushroom house, and a Westerdam cruise travel poster."><img class="gallery-slide is-current" src="images/previews/bifrost-lion.jpg" width="512" height="512" alt="A black lion in futuristic neon sunglasses" title="A black lion in futuristic neon sunglasses" aria-hidden="true" loading="lazy" decoding="async"><img class="gallery-slide" data-src="images/previews/bifrost-rose.jpg" width="512" height="512" alt="Lifelike, mystical, fantasy iridescent rose in a glass dome, like the rose from Beauty and the Beast, with water droplets. Hundreds of tiny fantasy details, beautiful design, high contrast, sharp focus" title="Lifelike, mystical, fantasy iridescent rose in a glass dome, like the rose from Beauty and the Beast, with water droplets. Hundreds of tiny fantasy details, beautiful design, high contrast, sharp focus" aria-hidden="true" loading="lazy" decoding="async"><img class="gallery-slide" data-src="images/previews/bifrost-mushroom.jpg" width="512" height="512" alt="A magic mushroom house in a fantasy world, 3d" title="A magic mushroom house in a fantasy world, 3d" aria-hidden="true" loading="lazy" decoding="async"><img class="gallery-slide" data-src="images/previews/bifrost-cruise.jpg" width="512" height="512" alt="Retro travel poster of Westerdam cruise ship in Glacier Bay National Park" title="Retro travel poster of Westerdam cruise ship in Glacier Bay National Park" aria-hidden="true" loading="lazy" decoding="async"></div></div>
       <div class="publication-body">
         <h3 class="paper-title"><a href="https://arxiv.org/pdf/2508.05954">Bifrost-1: Bridging Multimodal LLMs and Diffusion Models with Patch-level CLIP Latents</a></h3>
         <div class="publication-authors-shell"><div class="publication-authors" id="authors-7"><strong>Han Lin</strong>, Jaemin Cho, Amir Zadeh, Chuan Li, Mohit Bansal</div></div>

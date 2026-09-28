@@ -66,6 +66,7 @@
   }
 
   const videos = [...document.querySelectorAll('.publication-media video')];
+  const publicationMotion = [...document.querySelectorAll('.publication-motion')];
   const motionToggle = document.getElementById('motionToggle');
   let userPaused = null;
   const previewsPaused = () => userPaused ?? reducedMotion.matches;
@@ -83,8 +84,8 @@
     if (!motionToggle) return;
     const showPlay = previewsPaused() || needsPlayGesture();
     motionToggle.setAttribute('aria-pressed', String(previewsPaused()));
-    motionToggle.textContent = showPlay ? 'Play video previews' : 'Pause video previews';
-    motionToggle.setAttribute('aria-label', showPlay ? 'Play all publication video previews' : 'Pause all publication video previews');
+    motionToggle.textContent = showPlay ? 'Play previews' : 'Pause previews';
+    motionToggle.setAttribute('aria-label', showPlay ? 'Play all publication previews' : 'Pause all publication previews');
   };
   const syncVideo = (video, fromGesture = false) => {
     const eligible = shouldPlay(video);
@@ -135,11 +136,174 @@
       } else pendingPlays.delete(video);
     } catch (error) { onFailure(error); }
   };
+  // Galleries and SVG diagrams share the preview preference without changing video playback.
+  const galleryStates = new WeakMap();
+  const galleryHold = 4000;
+  const galleryFade = 700;
+  publicationMotion.forEach(element => {
+    if (!element.classList.contains('publication-gallery')) return;
+    const images = [...element.querySelectorAll('img')];
+    if (!images.length) return;
+    if (!element.hasAttribute('role')) element.setAttribute('role', 'img');
+    if (!element.hasAttribute('aria-label') && !element.hasAttribute('aria-labelledby')) {
+      element.setAttribute('aria-label', images[0].alt || 'Publication image preview');
+    }
+    element.setAttribute('aria-live', 'off');
+    images.forEach((image, index) => {
+      image.setAttribute('aria-hidden', 'true');
+      image.classList.toggle('is-current', index === 0);
+      image.classList.remove('is-previous');
+    });
+    galleryStates.set(element, {
+      element, images, frames: images.map(() => ({ status: 'idle', promise: null })),
+      index: 0, phase: 'hold', running: false, generation: 0,
+      timer: null, deadline: 0, remaining: galleryHold, pausedTransitions: [],
+    });
+  });
+  const loadGalleryImage = (state, index) => {
+    const image = state.images[index];
+    const frame = state.frames[index];
+    if (frame.promise) return frame.promise;
+    frame.status = 'loading';
+    frame.promise = new Promise(resolve => {
+      let settled = false;
+      let decoding = false;
+      const finish = ready => {
+        if (settled) return;
+        settled = true;
+        image.removeEventListener('load', onLoad);
+        image.removeEventListener('error', onError);
+        frame.status = ready ? 'ready' : 'failed';
+        resolve(ready);
+      };
+      const onError = () => finish(false);
+      const onLoad = () => {
+        if (settled || decoding) return;
+        if (!image.naturalWidth) { finish(false); return; }
+        decoding = true;
+        if (typeof image.decode === 'function') {
+          // Retain the last good frame until the browser has decoded the replacement.
+          Promise.resolve().then(() => image.decode()).then(() => finish(true), onError);
+        } else finish(true);
+      };
+      image.addEventListener('load', onLoad);
+      image.addEventListener('error', onError);
+      image.loading = 'eager';
+      image.decoding = 'async';
+      if (image.dataset.sizes) image.sizes = image.dataset.sizes;
+      if (image.dataset.srcset && !image.getAttribute('srcset')) image.srcset = image.dataset.srcset;
+      if (image.dataset.src && !image.getAttribute('src')) image.src = image.dataset.src;
+      if (image.complete) {
+        if (image.naturalWidth) onLoad();
+        else if (image.getAttribute('src') || image.getAttribute('srcset')) onError();
+      }
+    });
+    return frame.promise;
+  };
+  const nextGalleryIndex = state => {
+    for (let step = 1; step < state.images.length; step++) {
+      const index = (state.index + step) % state.images.length;
+      if (state.frames[index].status !== 'failed') return index;
+    }
+    return -1;
+  };
+  const preloadNextGalleryImage = state => {
+    const index = nextGalleryIndex(state);
+    if (index !== -1 && shouldPlay(state.element)) loadGalleryImage(state, index);
+  };
+  const scheduleGallery = (state, delay) => {
+    if (state.timer !== null) clearTimeout(state.timer);
+    state.remaining = delay;
+    state.deadline = performance.now() + delay;
+    state.timer = setTimeout(() => {
+      state.timer = null;
+      state.remaining = 0;
+      if (!shouldPlay(state.element)) { syncGallery(state, false); return; }
+      if (state.phase === 'fade') {
+        state.images.forEach(image => image.classList.remove('is-previous'));
+        state.phase = 'hold';
+        scheduleGallery(state, galleryHold);
+      } else advanceGallery(state);
+    }, delay);
+  };
+  const advanceGallery = state => {
+    if (!state.running || !shouldPlay(state.element)) return;
+    const index = nextGalleryIndex(state);
+    if (index === -1) { state.phase = 'idle'; return; }
+    if (state.frames[index].status !== 'ready') {
+      state.phase = 'waiting';
+      const generation = state.generation;
+      loadGalleryImage(state, index).then(() => {
+        if (state.running && state.generation === generation && shouldPlay(state.element)) advanceGallery(state);
+      });
+      return;
+    }
+    state.images.forEach((image, position) => {
+      image.classList.toggle('is-previous', position === state.index);
+      image.classList.toggle('is-current', position === index);
+    });
+    state.index = index;
+    state.phase = 'fade';
+    scheduleGallery(state, galleryFade);
+    preloadNextGalleryImage(state);
+  };
+  const syncGallery = (state, eligible) => {
+    state.element.classList.toggle('is-playing', eligible);
+    if (eligible === state.running) return;
+    state.running = eligible;
+    state.generation++;
+    if (!eligible) {
+      if (state.timer !== null) {
+        state.remaining = Math.max(0, state.deadline - performance.now());
+        clearTimeout(state.timer);
+        state.timer = null;
+      }
+      // CSS transitions need their own pause; animation-play-state only covers keyframes.
+      state.pausedTransitions = [];
+      state.images.forEach(image => {
+        if (typeof image.getAnimations !== 'function') return;
+        image.getAnimations().forEach(animation => {
+          if (animation.playState === 'running' || animation.pending) {
+            animation.pause();
+            state.pausedTransitions.push(animation);
+          }
+        });
+      });
+      if (state.phase === 'fade' && state.images.some(image => typeof image.getAnimations !== 'function')) {
+        // Older browsers cannot freeze a transition. Settle on the decoded frame instead.
+        const transitions = state.images.map(image => image.style.transition);
+        state.images.forEach(image => { image.style.transition = 'none'; image.classList.remove('is-previous'); });
+        state.element.getBoundingClientRect();
+        state.images.forEach((image, index) => { image.style.transition = transitions[index]; });
+        state.phase = 'hold';
+        state.remaining = galleryHold;
+      }
+      return;
+    }
+    state.pausedTransitions.forEach(animation => {
+      if (animation.playState === 'paused') animation.play();
+    });
+    state.pausedTransitions = [];
+    loadGalleryImage(state, state.index);
+    preloadNextGalleryImage(state);
+    if (state.images.length < 2 || state.phase === 'idle') return;
+    if (state.phase === 'waiting') advanceGallery(state);
+    else scheduleGallery(state, state.remaining);
+  };
+  const syncPublicationMotion = () => {
+    publicationMotion.forEach(element => {
+      const eligible = shouldPlay(element);
+      const gallery = galleryStates.get(element);
+      if (gallery) syncGallery(gallery, eligible);
+      else element.classList.toggle('is-playing', eligible);
+    });
+  };
   const updateVideos = () => {
     videos.forEach(video => syncVideo(video));
+    syncPublicationMotion();
     updateMotionToggle();
   };
-  if (videos.length) {
+  if (videos.length || publicationMotion.length) {
     videos.forEach(video => {
       video.defaultMuted = true;
       video.muted = true;
@@ -165,7 +329,8 @@
     });
     if ('IntersectionObserver' in window) {
       const videoObserver = new IntersectionObserver(updateVideos, { threshold: [0, 0.05] });
-      videos.forEach(video => videoObserver.observe(video));
+      [...videos, ...publicationMotion].forEach(preview => videoObserver.observe(preview));
+      if (publicationMotion.length) window.addEventListener('resize', syncPublicationMotion, { passive: true });
     } else {
       window.addEventListener('scroll', updateVideos, { passive: true });
       window.addEventListener('resize', updateVideos, { passive: true });
@@ -176,6 +341,7 @@
       motionToggle.addEventListener('click', () => {
         userPaused = previewsPaused() || needsPlayGesture() ? false : true;
         videos.forEach(video => syncVideo(video, true));
+        syncPublicationMotion();
         updateMotionToggle();
       });
     }

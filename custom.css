@@ -125,6 +125,25 @@ li { margin: 4px 0; }
 .publication-media img, .publication-media video { display: block; width: 100%; height: auto; max-height: 166px; object-fit: contain; border-radius: 3px; }
 .publication-media .video-poster { position: absolute; inset: 0; height: 100%; pointer-events: none; }
 .publication-media video.has-played ~ .video-poster { visibility: hidden; }
+.publication-gallery { position: relative; width: 100%; max-width: 190px; aspect-ratio: 1; margin: 0 auto; overflow: hidden; border-radius: 3px; }
+.publication-media .publication-gallery img { position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; object-fit: contain; opacity: 0; z-index: 0; transition: opacity 700ms ease; }
+.publication-media .publication-gallery img.is-previous { opacity: 1; z-index: 1; }
+.publication-media .publication-gallery img.is-current { opacity: 1; z-index: 2; }
+.publication-mechanism { display: block; width: 100%; height: auto; max-height: 190px; border-radius: 3px; }
+.vco-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 20px; font-weight: 650; fill: #2d4b55; }
+.vco-caption { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 18px; fill: #4c686a; }
+.vco-latent { --preview-animation: vco-latent 7s ease-in-out var(--preview-delay, 0s) infinite; }
+.vco-flow { --preview-animation: vco-flow 7s linear infinite; }
+.vco-cross { --preview-animation: vco-cross 7s ease-in-out infinite; }
+.publication-mechanism .motion-piece { animation: var(--preview-animation); animation-play-state: paused; }
+/* Explicitly playing also permits the user's opt-in under reduced motion. */
+.publication-mechanism.is-playing .motion-piece { animation: var(--preview-animation) !important; animation-play-state: running !important; }
+.vco-delay-1 { --preview-delay: 160ms; }
+.vco-delay-2 { --preview-delay: 320ms; }
+.vco-delay-3 { --preview-delay: 480ms; }
+@keyframes vco-latent { 0%, 20%, 100% { opacity: .42; } 55%, 85% { opacity: 1; } }
+@keyframes vco-flow { 0% { stroke-dashoffset: 90; opacity: .45; } 30%, 78% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: .45; } }
+@keyframes vco-cross { 0%, 16%, 100% { opacity: .3; } 35%, 65% { opacity: 1; } 85% { opacity: .5; } }
 .video-play { position: absolute; z-index: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); min-height: 44px; padding: 9px 14px; border: 1px solid rgba(255,255,255,0.8); border-radius: 6px; color: #fff; background: rgba(22,29,32,0.9); font-size: 13px; white-space: nowrap; }
 .video-play:hover { background: #161d20; }
 .publication-body { min-width: 0; }

@@ -140,6 +140,11 @@
   const galleryStates = new WeakMap();
   const galleryHold = 4000;
   const galleryFade = 700;
+  const galleryDuration = (value, fallback) => {
+    const milliseconds = Number(value);
+    return Number.isFinite(milliseconds) && milliseconds > 0 ? milliseconds : fallback;
+  };
+  const currentGalleryHold = state => galleryDuration(state.images[state.index].dataset.holdMs, galleryHold);
   publicationMotion.forEach(element => {
     if (!element.classList.contains('publication-gallery')) return;
     const images = [...element.querySelectorAll('img')];
@@ -157,7 +162,8 @@
     galleryStates.set(element, {
       element, images, frames: images.map(() => ({ status: 'idle', promise: null })),
       index: 0, phase: 'hold', running: false, generation: 0,
-      timer: null, deadline: 0, remaining: galleryHold, pausedTransitions: [],
+      fade: galleryDuration(element.dataset.fadeMs, galleryFade),
+      timer: null, deadline: 0, remaining: galleryDuration(images[0].dataset.holdMs, galleryHold), pausedTransitions: [],
     });
   });
   const loadGalleryImage = (state, index) => {
@@ -222,7 +228,7 @@
       if (state.phase === 'fade') {
         state.images.forEach(image => image.classList.remove('is-previous'));
         state.phase = 'hold';
-        scheduleGallery(state, galleryHold);
+        scheduleGallery(state, currentGalleryHold(state));
       } else advanceGallery(state);
     }, delay);
   };
@@ -244,7 +250,7 @@
     });
     state.index = index;
     state.phase = 'fade';
-    scheduleGallery(state, galleryFade);
+    scheduleGallery(state, state.fade);
     preloadNextGalleryImage(state);
   };
   const syncGallery = (state, eligible) => {
@@ -276,7 +282,7 @@
         state.element.getBoundingClientRect();
         state.images.forEach((image, index) => { image.style.transition = transitions[index]; });
         state.phase = 'hold';
-        state.remaining = galleryHold;
+        state.remaining = currentGalleryHold(state);
       }
       return;
     }

@@ -125,8 +125,11 @@ li { margin: 4px 0; }
 .publication-media img, .publication-media video { display: block; width: 100%; height: auto; max-height: 166px; object-fit: contain; border-radius: 3px; }
 .publication-media .video-poster { position: absolute; inset: 0; height: 100%; pointer-events: none; }
 .publication-media video.has-played ~ .video-poster { visibility: hidden; }
-.publication-gallery { position: relative; width: 100%; max-width: 190px; aspect-ratio: 1; margin: 0 auto; overflow: hidden; border-radius: 3px; }
-.publication-media .publication-gallery img { position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; object-fit: contain; opacity: 0; z-index: 0; transition: opacity 700ms ease; }
+.publication-gallery { position: relative; width: 100%; max-width: 285px; aspect-ratio: 3 / 2; margin: 0 auto; overflow: hidden; border-radius: 3px; }
+.publication-media .publication-gallery img { position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; object-fit: contain; opacity: 0; z-index: 0; transition: opacity var(--gallery-fade, 700ms) ease; }
+.publication-media .bifrost-gallery img { object-fit: cover; object-position: center var(--image-focus, 50%); }
+.graph-field-gallery { background: #fff; }
+.publication-media .graph-field-gallery img { width: auto; max-width: none; height: 225%; left: 50%; top: 50%; right: auto; bottom: auto; object-fit: fill; transform: translate(var(--sprite-x), var(--sprite-y)); clip-path: inset(var(--sprite-top) var(--sprite-right) var(--sprite-bottom) var(--sprite-left)); }
 .publication-media .publication-gallery img.is-previous { opacity: 1; z-index: 1; }
 .publication-media .publication-gallery img.is-current { opacity: 1; z-index: 2; }
 .publication-mechanism { display: block; width: 100%; height: auto; max-height: 190px; border-radius: 3px; }

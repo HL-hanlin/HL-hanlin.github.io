@@ -153,11 +153,15 @@ li { margin: 4px 0; }
 .publication-media .graph-field-gallery img { width: auto; max-width: none; height: 225%; left: 50%; top: 50%; right: auto; bottom: auto; object-fit: fill; transform: translate(var(--sprite-x), var(--sprite-y)); clip-path: inset(var(--sprite-top) var(--sprite-right) var(--sprite-bottom) var(--sprite-left)); }
 .publication-media .publication-gallery img.is-previous { opacity: 1; z-index: 1; }
 .publication-media .publication-gallery img.is-current { opacity: 1; z-index: 2; }
-.spatialuncertain-overview { display: grid; grid-template-columns: 394fr 561fr; width: 100%; aspect-ratio: 955 / 500; }
+.spatialuncertain-overview { position: relative; width: 100%; aspect-ratio: 955 / 500; overflow: hidden; }
+.spatialuncertain-composition { display: grid; grid-template-columns: 394fr 561fr; width: 100%; height: 100%; transform: translateX(var(--figure-centering, 0%)); }
+.spatialuncertain-overview:has([data-frame="a"].is-current) { --figure-centering: 14.18848168%; }
+.spatialuncertain-overview:has([data-frame="b"].is-current) { --figure-centering: 12.46073298%; }
 .spatialuncertain-fixed { position: relative; overflow: hidden; }
 .publication-media .spatialuncertain-fixed img { position: absolute; top: 0; left: 0; width: 402.03045685%; max-width: none; height: 100%; max-height: none; object-fit: fill; border-radius: 0; }
 .spatialuncertain-panels { aspect-ratio: 561 / 500; max-width: none; margin: 0; border-radius: 0; }
 .publication-media .spatialuncertain-panels img { left: var(--panel-x); right: auto; bottom: auto; width: 282.35294118%; max-width: none; height: 100%; object-fit: fill; clip-path: inset(0 var(--panel-right) 0 var(--panel-left)); border-radius: 0; }
+.publication-media .spatialuncertain-panels img.is-previous { opacity: 0; }
 .publication-mechanism { display: block; width: 100%; height: auto; max-height: 190px; border-radius: 3px; }
 .vco-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 20px; font-weight: 650; fill: #2d4b55; }
 .vco-caption { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 18px; fill: #4c686a; }

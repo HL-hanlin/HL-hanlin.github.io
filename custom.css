@@ -132,7 +132,11 @@ li { margin: 4px 0; }
 .toeplitz-pair { display: grid; grid-template-columns: 420fr 544fr; align-items: center; gap: 8px; width: 100%; }
 .publication-media .toeplitz-pair img { max-height: none; border-radius: 0; }
 .omc-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; width: 100%; }
+.omc-example { min-width: 0; }
+.omc-label { display: flex; justify-content: center; align-items: center; min-height: 30px; margin-bottom: 2px; color: var(--ink); font-size: 12px; font-weight: 600; line-height: 1.2; text-align: center; }
 .omc-panel { position: relative; overflow: hidden; aspect-ratio: 720 / 714; }
+/* Cover only the original abbreviation, leaving the plotted axes and data intact. */
+.omc-panel::after { content: ""; position: absolute; top: 0; left: 35%; width: 25%; height: 6.723%; background: #fff; }
 .publication-media .omc-panel img { position: absolute; top: 0; left: 0; width: 405.5556%; max-width: none; height: 100%; max-height: none; object-fit: fill; border-radius: 0; }
 .publication-media .omc-panel-nomc img { left: auto; right: 0; }
 .publication-gallery { position: relative; width: 100%; max-width: 285px; aspect-ratio: 3 / 2; margin: 0 auto; overflow: hidden; border-radius: 3px; }

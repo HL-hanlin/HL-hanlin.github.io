@@ -136,6 +136,13 @@ li { margin: 4px 0; }
 .publication-media .vedit-overview img { position: absolute; top: 0; left: 0; width: 191.527778%; max-width: none; height: 100%; max-height: none; object-fit: fill; border-radius: 0; }
 .envgen-overview { position: relative; width: 100%; aspect-ratio: 2749 / 1138; overflow: hidden; }
 .publication-media .envgen-overview img { position: absolute; top: 0; right: 0; width: 165.842124%; max-width: none; height: 100%; max-height: none; object-fit: fill; border-radius: 0; }
+.gkat-overview { display: grid; justify-items: center; gap: 6px; width: 100%; max-width: 232px; margin: 0 auto; }
+.gkat-row { position: relative; overflow: hidden; }
+.gkat-av { width: 100%; aspect-ratio: 1784 / 706; }
+.gkat-qkv { width: calc(1266 / 1784 * 100%); aspect-ratio: 1266 / 706; }
+.publication-media .gkat-row img { position: absolute; top: 0; height: 100%; max-width: none; max-height: none; object-fit: fill; border-radius: 0; }
+.publication-media .gkat-av img { left: 0; width: calc(3050 / 1784 * 100%); }
+.publication-media .gkat-qkv img { right: 0; width: calc(3050 / 1266 * 100%); }
 .toeplitz-pair { display: grid; grid-template-columns: 420fr 544fr; align-items: center; gap: 8px; width: 100%; }
 .publication-media .toeplitz-pair img { max-height: none; border-radius: 0; }
 .omc-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; width: 100%; }
